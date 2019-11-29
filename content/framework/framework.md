@@ -34,8 +34,16 @@ and it is now fairly stable:
 
 * Values <small>\[[#values](#values)\]</small>
 
-    * Vote for social policy change in ways that agree with my values
-      <small>\[[values.social-policy](#values.social-policy)\]</small>
+    * Vote for more LGBTQ+ rights
+      <small>\[[#values.lgbtq](#values.lgbtq)\]</small>
+    * Vote for policies which increase freedom of movement
+      <small>\[[#values.movement](#values.movement)\]</small>
+    * Vote for policies which promote immigration and immigrant rights
+      <small>\[[#values.immigration](#values.immigration)\]</small>
+    * Vote to improve and expand social safety nets
+      <small>\[[#values.safety-nets](#values.safety-nets)\]</small>
+    * Vote for racial and gender equity
+      <small>\[[#values.equity](#values.equity)\]</small>
 
 * Good Government <small>\[[#good-government](#good-government)\]</small>
 
@@ -128,11 +136,59 @@ more liberty and less central control of our lives.
 
 ## Values <small>\[<a id="values" href="#values">#values</a>\]</small>
 
-### Vote for social policy change in ways that agree with our values <small>\[<a id="representation.rights" href="#values.social">values.social</a>\]</small>
-For example: pro-LGBTQ+ rights.
+### Vote for more LGBTQ+ rights <small>\[<a id="values.lgbtq" href="#values.lgbtq">#values.lgbtq</a>\]</small>
 
-For props in this category, I will endeavor to explain my values and why you
-should adopt them.
+All people, regardless of sexuality or gender identity, deserve equal treatment
+under the law. To repair past injustices and to ameliorate ongoing injustice,
+we should promote laws which protect and promote the rights of LGBTQ+ people.
+
+Everyone has the right to be themselves and love whoever they like. You should
+not fear retribution or alienation by your employer or your government.
+
+### Vote for policies which increase freedom of movement <small>\[<a id="values.movement" href="#values.movement">#values.movement</a>\]</small>
+
+All people have a fundamental right to movement. Immigrants should not be
+afraid to visit their families because they might not be able to return to
+the country.
+
+### Vote for policies which promote immigration and immigrant rights <small>\[<a id="values.immigration" href="#values.immigration">#values.immigration</a>\]</small>
+
+America is a nation of immigrants. 70% of tech workers in the valley are
+immigrants, and 50% in the SF/Oakland/Hawyard area are [source](https://www.mercurynews.com/2018/01/17/h-1b-foreign-citizens-make-up-nearly-three-quarters-of-silicon-valley-tech-workforce-report-says/).
+Immigration is a fundamental tenet of America.
+
+Nationally, we have seen a rise of anti-immigration rhetoric and locally we
+have seen the same. Immigrants are blamed for high housing costs, for traffic,
+for crime. Yet immigrants are the least dangerous, most law-abiding
+demographic.
+
+We should do everything we can to make San Francisco an ideal place for
+immigrants. That means valuing their voice and promoting policies which help
+them come and stay here.
+
+### Vote to improve and expand social safety nets <small>\[<a id="values.safety-nets" href="#values.safety-nets">#values.safety-nets</a>\]</small>
+
+No one should go bankrupt due to unexpected medical problems. No one should
+stay in a shitty job just to pay the bills. We need to provide a social safety
+net so that people can take risks without ending up sleeping on the street.
+
+Good social safety nets promote economic growth and ensure no one ends up
+homeless. America, and San Francisco especially, do not have good systems in
+place to help people. We need to do better.
+
+### Vote for racial and gender equity <small>\[<a id="values.equity" href="#values.equity">#values.equity</a>\]</small>
+
+Everyone deserve equality of opportunity, but that's not enough. To account
+for historical wrongs and ongoing implicit bias, people from disadvantaged
+backgrounds deserve an extra leg up.
+
+People of color have endured over a century of explicitly racist federal and
+state policies that have prevented them from building family wealth. Women
+are still at a disadvantage compared to men in the workfore, though we have
+made great strides in the tech industry towards equal pay for equal work.
+
+Government ought to ensure that all of society prospers and builds wealth, not
+a small subset of it.
 
 ## Good Government <small>\[<a id="good-government" href="#good-government">#good-government</a>\]</small>
 
