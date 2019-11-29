@@ -12,25 +12,25 @@ and it is now fairly stable:
 * Taxation <small>\[[#taxation](#taxation)\]</small>
 
     * Generally prefer to vote for new taxes, preferably without a set-aside
-      <small>\[[taxation.new-taxes](#taxation.new-taxes)\]</small>
+      <small>\[[#taxation.new-taxes](#taxation.new-taxes)\]</small>
     * Vote for things that price externalities
-      <small>\[[taxation.externalities](#taxation.externalities)\]</small>
+      <small>\[[#taxation.externalities](#taxation.externalities)\]</small>
     * Generally vote against budget set-asides, which limit the ability of
       representatives to budget effectively
-      <small>\[[taxation.set-asides](#taxation.set-asides)\]</small>
+      <small>\[[#taxation.set-asides](#taxation.set-asides)\]</small>
     * Vote to liberate funds from budget set-asides, to be useful for other
       purposes
-      <small>\[[taxation.liberate-set-asides](#taxation.liberate-set-asides)\]</small>
+      <small>\[[#taxation.liberate-set-asides](#taxation.liberate-set-asides)\]</small>
     * Vote to fund infrastructure
-      <small>\[[taxation.infrastructure](#taxation.infrastructure)\]</small>
+      <small>\[[#taxation.infrastructure](#taxation.infrastructure)\]</small>
 
 * Representation <small>\[[#representation](#representation)\]</small>
 
     * Vote for groups that don’t have a strong lobby (youth, disabled, homeless,
       low-income people, the environment)
-      <small>\[[representation.no-lobby](#representation.no-lobby)\]</small>
+      <small>\[[#representation.no-lobby](#representation.no-lobby)\]</small>
     * Vote against things which infringe upon rights of the people
-      <small>\[[representation.rights](#representation.rights)\]</small>
+      <small>\[[#representation.rights](#representation.rights)\]</small>
 
 * Values <small>\[[#values](#values)\]</small>
 
@@ -40,9 +40,9 @@ and it is now fairly stable:
 * Good Government <small>\[[#good-government](#good-government)\]</small>
 
     * Vote for things which decrease needless or unhelpful bureaucracy
-      <small>\[[good-government.bureaucracy](#good-government.bureaucracy)\]</small>
+      <small>\[[#good-government.bureaucracy](#good-government.bureaucracy)\]</small>
     * Vote for things which promote good government
-      <small>\[[good-government.promote](#good-government.promote)\]</small>
+      <small>\[[#good-government.promote](#good-government.promote)\]</small>
 
 Don’t just vote NO on every ballot initiative. California’s broken tax system
 requires that way too many things go to the ballot because the legislature
@@ -54,9 +54,9 @@ representative democracy where ballot initiatives are rare.
 
 # Details
 
-## Taxation <small>\[<a id="taxation" href="#taxation">taxation</a>\]</small>
+## Taxation <small>\[<a id="taxation" href="#taxation">#taxation</a>\]</small>
 
-### Prefer to vote for new taxes, preferably without a set-aside <small>\[<a id="taxation.new-taxes" href="#taxation.new-taxes">taxation.new-taxes</a>\]</small>
+### Prefer to vote for new taxes, preferably without a set-aside <small>\[<a id="taxation.new-taxes" href="#taxation.new-taxes">#taxation.new-taxes</a>\]</small>
 
 
 Due to Prop 13, Californians must vote on all new taxes. This was part of the
@@ -80,15 +80,15 @@ cause and cannot be used if the city experiences a budget shortfall. During the
 next recession, for example, we will be forced to spend tax money on trees and
 arts subsidies instead of school children and infrastructure.
 
-### Vote for things that price externalities <small>\[<a id="taxation.externalities" href="#taxation.externalities">taxation.externalities</a>\]</small>
+### Vote for things that price externalities <small>\[<a id="taxation.externalities" href="#taxation.externalities">#taxation.externalities</a>\]</small>
 
 Avoid the tragedy of the commons: put a price on carbon emissions, packaging
 waste, miles driven, etc. Anything that has a diffuse negative impact that
 nobody pays for must be priced by a government-mandated market.
 
-### Generally vote against budget set-asides <small>\[<a id="taxation.no-set-asides" href="#taxation.no-set-asides">taxation.no-set-asides</a>\]</small>
+### Generally vote against budget set-asides <small>\[<a id="taxation.no-set-asides" href="#taxation.no-set-asides">#taxation.no-set-asides</a>\]</small>
 
-Closely related to [taxation.new-taxes](#taxation.new-taxes), but this doesn’t
+Closely related to [#taxation.new-taxes](#taxation.new-taxes), but this doesn’t
 implement any new taxes. There’s literally no reason a prop like this ever
 needs to be on the ballot. The legislature (or Board of Supervisors) already
 has the ability to fund programs during the budgeting process. When you see
@@ -96,28 +96,28 @@ something like this, it means they found a way to fund a pet project using
 language they believe voters will like. We’ll be stuck with that decision in
 the next recession because this can only be changed with another popular vote.
 
-### Vote to liberate funds from budget set-asides <small>\[<a id="taxation.liberate-set-asides" href="#taxation.liberate-set-asides">taxation.liberate-set-asides</a>\]</small>
+### Vote to liberate funds from budget set-asides <small>\[<a id="taxation.liberate-set-asides" href="#taxation.liberate-set-asides">#taxation.liberate-set-asides</a>\]</small>
 
 I wish this category showed up more often, but it’s extremely rare. Any time a
 budget set-aside is up for repeal, VOTE YES. Let the legislature control
 budgeting!
 
-### Vote to fund infrastructure <small>\[<a id="taxation.infrastructure" href="#taxation.infrastructure">taxation.infrastructure</a>\]</small>
+### Vote to fund infrastructure <small>\[<a id="taxation.infrastructure" href="#taxation.infrastructure">#taxation.infrastructure</a>\]</small>
 
 Due to Prop 13, San Francisco’s (and California’s) infrastructure is
 dramatically under-funded. We need to fix our roads, transit, bike lanes, rail
 roads, sewer, electricity, etc, etc. Let’s pay for it!
 
-## Representation <small>\[<a id="representation" href="#representation">representation</a>\]</small>
+## Representation <small>\[<a id="representation" href="#representation">#representation</a>\]</small>
 
-### Vote for groups that don’t have a strong lobby (youth, disabled, homeless, low-income people, the environment) <small>\[<a id="representation.no-lobby" href="#representation.no-lobby">representation.no-lobby</a>\]</small>
+### Vote for groups that don’t have a strong lobby (youth, disabled, homeless, low-income people, the environment) <small>\[<a id="representation.no-lobby" href="#representation.no-lobby">#representation.no-lobby</a>\]</small>
 
 This should be self-explanatory.
 
 These ballot props deserve a proper reading, but if you consider yourself a
 democrat then you should probably go ahead and approve these measures.
 
-### Vote against things which infringe upon rights of the people <small>\[<a id="representation.rights" href="#representation.rights">representation.rights</a>\]</small>
+### Vote against things which infringe upon rights of the people <small>\[<a id="representation.rights" href="#representation.rights">#representation.rights</a>\]</small>
 
 This rarely comes up, but it looks like: limits on speech, rolling back rights
 (eg making gay marriage illegal again), limiting what people can consume or pay
@@ -126,7 +126,7 @@ for.
 I find propositions like this fundamentally illiberal. We should default to
 more liberty and less central control of our lives.
 
-## Values <small>\[<a id="values" href="#values">values</a>\]</small>
+## Values <small>\[<a id="values" href="#values">#values</a>\]</small>
 
 ### Vote for social policy change in ways that agree with our values <small>\[<a id="representation.rights" href="#values.social">values.social</a>\]</small>
 For example: pro-LGBTQ+ rights.
@@ -134,16 +134,16 @@ For example: pro-LGBTQ+ rights.
 For props in this category, I will endeavor to explain my values and why you
 should adopt them.
 
-## Good Government <small>\[<a id="good-government" href="#good-government">good-government</a>\]</small>
+## Good Government <small>\[<a id="good-government" href="#good-government">#good-government</a>\]</small>
 
 ### Vote against things which increase needless or unhelpful bureaucracy
-<small>\[[good-government.bureaucracy](#good-government.bureaucracy)\]</small>
+<small>\[[#good-government.bureaucracy](#good-government.bureaucracy)\]</small>
 
 Do you have any idea how many commissions and “oversight” bodies San Francisco
 has? Neither do I — we have too many to count. Bias towards saying no to
 passing the buck to a new bureaucratic agency.
 
 ### Vote against things which undermine good government
-<small>\[[good-government.promote](#good-government.promote)\]</small>
+<small>\[[#good-government.promote](#good-government.promote)\]</small>
 
 The motivation behind this is self-explanatory, but the implementation is up to debate. What I consider good government may not be what you consider good government. When I use this justification, I will attempt to explain my reasoning well.
