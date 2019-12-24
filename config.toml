@@ -45,6 +45,9 @@ defaultContentLanguage = "en"
         "posts"
     ]
 
+[taxonomies]
+    framework = "framework"
+
 # Global menu section
 [[menu.main]]
     name = "Home"
