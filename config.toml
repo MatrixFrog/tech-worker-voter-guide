@@ -46,7 +46,8 @@ defaultContentLanguage = "en"
     ]
 
 [taxonomies]
-    framework = "framework"
+framework = "frameworks"
+category = "categories"
 
 # Global menu section
 [[menu.main]]
