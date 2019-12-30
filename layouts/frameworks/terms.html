@@ -1,0 +1,60 @@
+{{ define "main" }}
+
+<style type="text/css">
+#toc_container {
+    display: table;
+    font-size: 95%;
+    width: auto;
+}
+
+.toc_list {
+  margin: 0;
+  padding: 0;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+</style>
+
+{{/* Table of Contents */}}
+{{ .Content }}
+
+<aside>
+<div id="toc_container">
+<ul class="toc_list">
+{{ $base := "" }}
+{{ range sort .Pages "Dir" "asc" }}
+  {{ $thisbase := path.Base (path.Dir (path.Dir .Dir)) }}
+  {{ if ne $base $thisbase }}
+    {{ if ne $base "" }}
+      </ul>
+    </li>
+    {{ end }}
+    {{ $base = $thisbase }}
+    <li><a href="#{{ $base }}">{{ $base | title }}</a>
+      <ul>
+  {{ end }}
+  <li><a href="#{{ .Title }}">{{ .Title }}</a> - {{ .Params.short }}</li>
+{{ end }}
+  <ul></li>
+</ul>
+</div>
+</aside>
+
+{{/* Details */}}
+
+{{ $base := "" }}
+{{ range sort .Pages "Dir" "asc" }}
+  {{ $thisbase := path.Base (path.Dir (path.Dir .Dir)) }}
+  {{ if ne $base $thisbase }}
+    {{ $base = $thisbase }}
+    <h2 id="{{ $base }}">{{ $base | title }}</h2>
+  {{ end }}{{/*if*/}}
+    <h4 id="{{ .Title }}"><a href="#{{ .Title }}">{{ .Title }}</a> - <small>{{ .Params.short }}</small></h4>
+    <div>
+      {{ .Content }}
+    </div>
+{{ end }}
+
+{{ end }}
