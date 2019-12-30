@@ -1,22 +1,5 @@
 {{ define "main" }}
 
-<style type="text/css">
-#toc_container {
-    display: table;
-    font-size: 95%;
-    width: auto;
-}
-
-.toc_list {
-  margin: 0;
-  padding: 0;
-}
-
-#toc_container li, #toc_container ul, #toc_container ul li{
-    list-style: outside none none !important;
-}
-</style>
-
 {{/* Table of Contents */}}
 {{ .Content }}
 
@@ -32,7 +15,7 @@
     </li>
     {{ end }}
     {{ $base = $thisbase }}
-    <li><a href="#{{ $base }}">{{ $base | title }}</a>
+    <li><big><a href="#{{ $base }}">{{ $base | title }}</a></big>
       <ul>
   {{ end }}
   <li><a href="#{{ .Title }}">{{ .Title }}</a> - {{ .Params.short }}</li>
@@ -57,4 +40,20 @@
     </div>
 {{ end }}
 
+<style type="text/css">
+#toc_container {
+    display: table;
+    font-size: 95%;
+    width: auto;
+}
+
+.toc_list {
+  margin: 0;
+  padding: 0;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+</style>
 {{ end }}
