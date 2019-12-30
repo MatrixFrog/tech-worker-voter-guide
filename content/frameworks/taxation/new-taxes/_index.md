@@ -1,15 +1,17 @@
 ---
-title: "taxation.new-taxes"
+title: "New Taxes"
 date: 2019-12-29T11:18:14-08:00
 short: "Generally prefer to vote for new taxes, preferably without a set-aside"
+categories: [taxation]
+added: "2019.12.0"
 ---
 
 Due to Prop 13, Californians must vote on all new taxes. This was part of the
-"taxpayer revolt\: led by Howard Jarvis in the 1970s. It was designed to limit
+"taxpayer revolt" led by Howard Jarvis in the 1970s. It was designed to limit
 new taxes by forcing all new taxes to go to a popular vote. The analysis of
 Prop 13 at the time was telling: it predicted massive shortfalls in public
 funding for schools and local governments. Indeed, this prediction came true.
-It’s one of the reasons that the University of California system is no longer
+It's one of the reasons that the University of California system is no longer
 free, and why our primary education system is so bad.
 
 We prefer to vote for new taxes because in a healthier democracy these taxes
