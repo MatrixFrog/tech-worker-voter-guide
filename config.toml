@@ -56,7 +56,7 @@ category = "categories"
 
 [[menu.main]]
     name = "Framework"
-    url = "/frameworks/"
+    url = "/framework/"
     weight = 2
 
 [[menu.main]]
