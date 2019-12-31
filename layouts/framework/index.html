@@ -1,0 +1,38 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{/* Table of Contents */}}
+{{ .Content }}
+
+<div id="toc_container">
+<ul class="toc_list">
+{{ range sort .Pages "Dir" "asc" }}
+  <li><big><a href="{{ .Permalink }}">{{ .Title }}</a></big>
+    <ul>
+      {{ range sort .Pages "Dir" "asc" }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Params.short }}</li>
+      {{ end }}
+    </ul></li>
+{{ end }}
+</ul>
+</div>
+
+<style type="text/css">
+#toc_container {
+    display: table;
+    font-size: 95%;
+    width: auto;
+    margin-top: 1em;
+}
+
+.toc_list {
+  margin: 0;
+  padding: 0;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+</style>
+{{- partial "edit-meta.html" . -}}
+{{- partial "pagination.html" . -}}
+{{ end }}

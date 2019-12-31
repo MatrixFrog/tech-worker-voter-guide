@@ -1,6 +1,7 @@
 ---
 title: "Framework v2019.12.0"
 date: 2019-12-29T11:20:17-08:00
+layout: index
 ---
 
 The Tech Worker Voter Guide operates via a decision-making framework plus a
