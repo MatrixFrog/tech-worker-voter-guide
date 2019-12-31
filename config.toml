@@ -10,7 +10,7 @@ pygmentsUseClasses = true
 
 defaultContentLanguage = "en"
 
-[Params]
+[params]
 
     # Souce Code repository section
     description = "Because they're going to blame you whether or not you vote."
@@ -29,7 +29,7 @@ defaultContentLanguage = "en"
 
     # Documentation Menu section
     # Menu style settings
-    menu_style = "open-menu" # "open-menu" or "slide-menu"
+    menu_style = "slide-menu" # "open-menu" # "open-menu" or "slide-menu"
 
     # Date format
     dateformat = "" # default "2 Jan 2006"
@@ -45,6 +45,9 @@ defaultContentLanguage = "en"
         "posts"
     ]
 
+[taxonomies]
+category = "categories"
+
 # Global menu section
 [[menu.main]]
     name = "Home"
@@ -52,6 +55,11 @@ defaultContentLanguage = "en"
     weight = 1
 
 [[menu.main]]
+    name = "Framework"
+    url = "/framework/"
+    weight = 2
+
+[[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/sbuss"
-    weight = 2
+    weight = 3
