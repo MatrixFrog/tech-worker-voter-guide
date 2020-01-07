@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+
+{{ range sort .Pages "Dir" "asc" }}
+  <h4 id="{{ .Title }}"><a href="#{{ .Title }}">{{ .Title }}</a> - <small>{{ .Params.short }}</small></h4>
+  <div>
+    {{ .Content }}
+  </div>
+{{ end }}
+{{- partial "edit-meta.html" . -}}
+{{- partial "pagination.html" . -}}
+{{ end }}
