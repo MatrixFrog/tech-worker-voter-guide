@@ -16,6 +16,18 @@
 </ul>
 </div>
 
+{{/* Details */}}
+
+{{ range sort .Pages "Dir" "asc" }}
+  <h2 id="{{ .Title }}">{{ .Title }}</h2>
+  {{ range sort .Pages "Dir" "asc" }}
+    <h4 id="{{ .Title }}"><a href="#{{ .Title }}">{{ .Title }}</a> - <small>{{ .Params.short }}</small></h4>
+    <div>
+      {{ .Content }}
+    </div>
+  {{ end }}
+{{ end }}
+
 <style type="text/css">
 #toc_container {
     display: table;
