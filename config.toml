@@ -42,7 +42,8 @@ defaultContentLanguage = "en"
         "blog",
         "entry",
         "post",
-        "posts"
+        "posts",
+	"framework"
     ]
 
 [taxonomies]

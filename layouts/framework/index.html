@@ -4,12 +4,14 @@
 {{ .Content }}
 
 <div id="toc_container">
+<h4>Overview</h4>
 <ul class="toc_list">
 {{ range sort .Pages "Dir" "asc" }}
-  <li><big><a href="{{ .Permalink }}">{{ .Title }}</a></big>
+  <li><big><a href="#{{ .Title }}">{{ .Title }}</a></big>
+    {{ $parent := .Title }}
     <ul>
       {{ range sort .Pages "Dir" "asc" }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Params.short }}</li>
+      <li><a href="#{{ $parent }}.{{ .Title }}">{{ .Title }}</a> - {{ .Params.short }}</li>
       {{ end }}
     </ul></li>
 {{ end }}
@@ -17,11 +19,12 @@
 </div>
 
 {{/* Details */}}
-
+<h4>Details</h4>
 {{ range sort .Pages "Dir" "asc" }}
-  <h2 id="{{ .Title }}">{{ .Title }}</h2>
+  <h3 id="{{ .Title }}"><a href="#{{ .Title }}">{{ .Title }}</a></h3>
+  {{ $parent := .Title }}
   {{ range sort .Pages "Dir" "asc" }}
-    <h4 id="{{ .Title }}"><a href="#{{ .Title }}">{{ .Title }}</a> - <small>{{ .Params.short }}</small></h4>
+    <h4 id="{{ $parent }}.{{ .Title }}"><a href="#{{ $parent }}.{{ .Title }}">{{ .Title }}</a> - <small>{{ .Params.short }}</small></h4>
     <div>
       {{ .Content }}
     </div>
