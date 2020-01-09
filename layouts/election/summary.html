@@ -1,0 +1,38 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+{{/* Table of Contents */}}
+{{ .Content }}
+
+<div id="toc_container">
+<h1>Overview</h1>
+<ul class="toc_list">
+{{ partial "election-li.html" . }}
+</ul>
+</div>
+
+{{/* Details */}}
+<h1>Details</h1>
+
+{{ partial "election-detail.html" (dict "Page" . "level" 3) }}
+
+<style type="text/css">
+#toc_container {
+    display: table;
+    font-size: 95%;
+    width: auto;
+    margin-top: 1em;
+}
+
+.toc_list {
+  margin: 0;
+  padding: 0;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+}
+</style>
+{{- partial "edit-meta.html" . -}}
+{{- partial "pagination.html" . -}}
+{{ end }}
+
