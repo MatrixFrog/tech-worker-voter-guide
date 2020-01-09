@@ -1,7 +1,7 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 
-{{ range sort .Pages "Dir" "asc" }}
+{{ range .Pages.ByTitle }}
   <h4 id="{{ .Title }}"><a href="{{ .Permalink }}">{{ .Title }}</a> - <small>{{ .Params.short }}</small></h4>
   <div>
     {{ .Content }}
