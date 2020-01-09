@@ -1,0 +1,12 @@
+{{ range sort .Page.Pages "Dir" "asc" }}
+<h{{ $.level }} id="{{ .Page.Title }}"><a href="#{{ .Page.Title }}">{{ .Page.Title }}</a>{{ if .Page.Params.short }} - <small>{{ .Page.Params.short }}</small>{{ end }}</h{{ $.level }}>
+  {{ if .Page.Content }}
+  <div>
+    {{ .Page.Content }}
+  </div>
+  {{ end }}
+
+  {{ if .Page.Pages }}
+    {{ partial "election-detail.html" (dict "Page" . "level" (add $.level 1)) }}
+  {{ end }}
+{{ end }}
