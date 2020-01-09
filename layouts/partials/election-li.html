@@ -1,4 +1,4 @@
-{{ range sort .Pages "Dir" "asc" }}
+{{ range .Pages.ByTitle }}
 <li><a href="#{{ .Title }}">{{ .Title }}{{ if .Params.position }} - {{ .Params.position }}{{ end }}</a>
   {{ if .Pages }}
     {{ $parent := .Title }}
