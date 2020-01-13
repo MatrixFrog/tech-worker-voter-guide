@@ -90,6 +90,8 @@ recalcitrant landlords, its impact will be muted by City Hall’s hostility
 towards small business, and in the worst cases, will force small businesses to
 pay a tax through no fault of their own, but rather of the city.
 
+Read the legal text [here](https://sfelections.sfgov.org/sites/default/files/Documents/candidates/March2020_ExciseTax_LegalText.pdf).
+
 ## Why is it on the ballot?
 
 [Prop 13](https://en.wikipedia.org/wiki/1978_California_Proposition_13)
