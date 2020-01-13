@@ -34,6 +34,8 @@ This bond will give City College the capital it needs to fund these repairs
 and renovations, ensuring the next several generations of students have
 access to high-quality education in high-quality facilities.
 
+This needs a 55% majority to pass.
+
 View the [full text](https://sfelections.sfgov.org/sites/default/files/Documents/candidates/March2020_CC_Bond.pdf),
 and the [legal text](https://sfelections.sfgov.org/sites/default/files/Documents/candidates/March2020_LT_A.pdf).
 
