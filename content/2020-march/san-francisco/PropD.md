@@ -90,7 +90,9 @@ recalcitrant landlords, its impact will be muted by City Hall’s hostility
 towards small business, and in the worst cases, will force small businesses to
 pay a tax through no fault of their own, but rather of the city.
 
-Read the legal text [here](https://sfelections.sfgov.org/sites/default/files/Documents/candidates/March2020_ExciseTax_LegalText.pdf).
+Read the [legal text](https://sfelections.sfgov.org/sites/default/files/Documents/candidates/March2020_ExciseTax_LegalText.pdf)
+and the City Economist's [Economic Impact Report](https://sfcontroller.org/sites/default/files/Documents/Economic%20Analysis/191005_economic%20impact_final_2.pdf).
+
 
 ## Why is it on the ballot?
 
