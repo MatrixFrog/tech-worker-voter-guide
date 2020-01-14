@@ -2,5 +2,5 @@
 title: "California"
 layout: summary
 type: election
-weight: -202003.1
+weight: 1
 ---
