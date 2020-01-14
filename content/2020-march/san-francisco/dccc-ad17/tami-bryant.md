@@ -4,9 +4,9 @@ date: 2020-01-13T22:38:17-08:00
 weight: 8
 ---
 
-{{< figure src="/img/2020-march/san-francisco/tami-bryantjpg"
+{{< figure src="/img/2020-march/san-francisco/tami-bryant.jpg"
            alt="Tami Bryant"
-           link="/img/2020-march/san-francisco/tami-bryantjpg"
+           link="/img/2020-march/san-francisco/tami-bryant.jpg"
            class="candidate"
            width=250
            >}}
