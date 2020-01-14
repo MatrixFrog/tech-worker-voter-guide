@@ -1,6 +1,7 @@
 ---
 title: "Tyra Fennell"
 date: 2020-01-07T22:30:01-08:00
+weight: 8
 ---
 
 {{< figure src="/img/2020-march/san-francisco/tyra-fennell.jpg"

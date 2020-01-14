@@ -1,6 +1,7 @@
 ---
 title: "Austin Hunter"
 date: 2020-01-09T17:06:31-08:00
+weight: 1
 ---
 
 {{< figure src="/img/2020-march/san-francisco/austin-hunter.jpg"

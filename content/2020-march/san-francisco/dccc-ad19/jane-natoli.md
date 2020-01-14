@@ -1,6 +1,7 @@
 ---
 title: "Jane Natoli"
 date: 2020-01-07T22:31:05-08:00
+weight: 2
 ---
 
 {{< figure src="/img/2020-march/san-francisco/jane-natoli.jpg"

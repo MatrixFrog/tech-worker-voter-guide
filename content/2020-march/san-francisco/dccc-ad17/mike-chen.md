@@ -1,6 +1,7 @@
 ---
 title: "Mike Chen"
 date: 2020-01-10T18:20:11-08:00
+weight: 5
 ---
 
 {{< figure src="/img/2020-march/san-francisco/mike-chen.jpg"

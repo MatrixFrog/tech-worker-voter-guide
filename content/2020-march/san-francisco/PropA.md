@@ -3,6 +3,7 @@ title: "Prop A"
 date: 2019-12-23T16:23:21-08:00
 position: "Yes"
 short: "City College Bond to fund facilities construction & renovation"
+weight: 1
 ---
 
 ## Vote YES
