@@ -45,3 +45,6 @@ California Government Code [section 53506](http://leginfo.legislature.ca.gov/fac
 and [Article XVI](https://ballotpedia.org/Article_XVI,_California_Constitution#Section_1)
 of the California Constitution mandated that general obligation bonds of this
 size be put to a vote.
+
+Because this is for a school district, [Propisition 39 (2000)](https://ballotpedia.org/California_Proposition_39,_Supermajority_of_55%25_for_School_Bond_Votes_(2000))
+allows this to pass with 55% instead of the normal 2/3rds.
