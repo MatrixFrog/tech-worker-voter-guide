@@ -1,10 +1,10 @@
 {{ range .Page.Pages.ByTitle  }}
+<div class="candidate">
 <h{{ $.level }} id="{{ .Page.Title }}"><a href="#{{ .Page.Title }}">{{ .Page.Title }}</a>{{ if .Page.Params.short }} - <small>{{ .Page.Params.short }}</small>{{ end }}</h{{ $.level }}>
   {{ if .Page.Content }}
-  <div>
     {{ .Page.Content }}
-  </div>
   {{ end }}
+</div>
 
   {{ if .Page.Pages }}
     {{ partial "election-detail.html" (dict "Page" . "level" (add $.level 1)) }}

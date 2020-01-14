@@ -3,6 +3,13 @@ title: "Mike Chen"
 date: 2020-01-10T18:20:11-08:00
 ---
 
+{{< figure src="/img/2020-march/san-francisco/mike-chen.jpg"
+           alt="Mike Chen"
+           link="/img/2020-march/san-francisco/mike-chen.jpg"
+           class="candidate"
+           width=250
+           >}}
+
 A tech job brought me to San Francisco, and I fell in love with the city. Tech
 has brought many jobs and opportunities to the city. Tech can be a force for
 good in SF – and SF can influence tech to be better. Tech workers should push
