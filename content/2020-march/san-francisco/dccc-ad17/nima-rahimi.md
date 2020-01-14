@@ -1,6 +1,7 @@
 ---
 title: "Nima Rahimi"
 date: 2020-01-07T22:28:56-08:00
+weight: 6
 ---
 
 {{< figure src="/img/2020-march/san-francisco/nima-rahimi.jpg"

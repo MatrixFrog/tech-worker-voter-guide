@@ -1,6 +1,7 @@
 ---
 title: "Kristen Asato-Webb"
 date: 2020-01-10T19:02:45-08:00
+weight: 3
 ---
 
 {{< figure src="/img/2020-march/san-francisco/kristen-asato-webb.jpg"

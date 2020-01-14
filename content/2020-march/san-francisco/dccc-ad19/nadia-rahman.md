@@ -1,6 +1,7 @@
 ---
 title: "Nadia Rahman"
 date: 2020-01-10T18:24:11-08:00
+weight: 3
 ---
 
 {{< figure src="/img/2020-march/san-francisco/nadia-rahman.jpg"

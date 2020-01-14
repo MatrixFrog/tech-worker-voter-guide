@@ -1,6 +1,7 @@
 ---
 title: "Bivett Brackett"
 date: 2020-01-11T21:52:07-08:00
+weight: 2
 ---
 
 {{< figure src="/img/2020-march/san-francisco/bivett-brackett.jpg"
