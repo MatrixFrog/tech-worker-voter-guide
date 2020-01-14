@@ -1,6 +1,8 @@
 ---
 title: "Cyn Wang"
 date: 2020-01-07T22:30:24-08:00
+layout: candidate
+type: election
 weight: 1
 ---
 

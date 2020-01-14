@@ -1,6 +1,8 @@
 ---
 title: "Bivett Brackett"
 date: 2020-01-11T21:52:07-08:00
+layout: candidate
+type: election
 weight: 2
 ---
 

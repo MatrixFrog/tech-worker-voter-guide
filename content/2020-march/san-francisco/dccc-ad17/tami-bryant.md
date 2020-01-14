@@ -1,6 +1,8 @@
 ---
 title: "Tami Bryant"
 date: 2020-01-13T22:38:17-08:00
+layout: candidate
+type: election
 weight: 8
 ---
 
