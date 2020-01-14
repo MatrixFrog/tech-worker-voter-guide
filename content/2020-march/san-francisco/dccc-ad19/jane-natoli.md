@@ -1,6 +1,8 @@
 ---
 title: "Jane Natoli"
 date: 2020-01-07T22:31:05-08:00
+layout: candidate
+type: election
 weight: 2
 ---
 

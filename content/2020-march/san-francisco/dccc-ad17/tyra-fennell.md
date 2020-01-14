@@ -1,6 +1,8 @@
 ---
 title: "Tyra Fennell"
 date: 2020-01-07T22:30:01-08:00
+layout: candidate
+type: election
 weight: 9
 ---
 

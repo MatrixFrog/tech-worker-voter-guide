@@ -1,6 +1,8 @@
 ---
 title: "Austin Hunter"
 date: 2020-01-09T17:06:31-08:00
+layout: candidate
+type: election
 weight: 1
 ---
 

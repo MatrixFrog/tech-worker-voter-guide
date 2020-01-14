@@ -1,6 +1,8 @@
 ---
 title: "Nima Rahimi"
 date: 2020-01-07T22:28:56-08:00
+layout: candidate
+type: election
 weight: 6
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "Kristen Asato-Webb"
 date: 2020-01-10T19:02:45-08:00
+layout: candidate
+type: election
 weight: 3
 ---
 

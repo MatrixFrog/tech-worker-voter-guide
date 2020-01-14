@@ -1,6 +1,8 @@
 ---
 title: "Mike Chen"
 date: 2020-01-10T18:20:11-08:00
+layout: candidate
+type: election
 weight: 5
 ---
 
