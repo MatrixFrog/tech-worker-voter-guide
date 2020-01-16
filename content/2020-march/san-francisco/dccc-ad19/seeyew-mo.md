@@ -3,7 +3,7 @@ title: "Seeyew Mo"
 date: 2020-01-07T22:27:02-08:00
 layout: candidate
 type: election
-weight: 4
+weight: 5
 ---
 
 {{< figure src="/img/2020-march/san-francisco/seeyew-mo.jpg"
