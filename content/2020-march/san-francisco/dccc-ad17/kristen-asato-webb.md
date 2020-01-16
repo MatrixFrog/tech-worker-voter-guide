@@ -1,7 +1,17 @@
 ---
 title: "Kristen Asato-Webb"
 date: 2020-01-10T19:02:45-08:00
+layout: candidate
+type: election
+weight: 3
 ---
+
+{{< figure src="/img/2020-march/san-francisco/kristen-asato-webb.jpg"
+           alt="Kristen Asato-Webb"
+           link="/img/2020-march/san-francisco/kristen-asato-webb.jpg"
+           class="candidate"
+           width=250
+           >}}
 
 As a daughter of a software engineer, I have long understood the value of
 technology. It has revolutionized not only communication but every aspect of
