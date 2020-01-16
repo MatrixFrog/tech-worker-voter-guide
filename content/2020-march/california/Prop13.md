@@ -3,6 +3,7 @@ title: "Prop 13"
 date: 2020-01-08T22:36:08-08:00
 position: "Yes"
 short: Authorizes $15B general obligation bond for school and college facilities.
+weight: 1
 ---
 
 ## Vote YES
