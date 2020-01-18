@@ -38,7 +38,6 @@
 <!-- End Sidebar -->
 
 {{define "open-menu"}}
-  {{- $currentNode := .currentnode -}}
   {{ with .sect }}
     <li class="duik-sidebar__item">
       {{ if .IsSection }}
@@ -51,14 +50,14 @@
                 {{- range .Pages.ByTitle -}}
                   {{- if and .Params.hidden (not $.showhidden) -}}
                   {{- else -}}
-                    {{template "open-menu" dict "sect" . "currentnode" $currentNode "level" (add $.level 1) "scratch" $.scratch }}
+                    {{template "open-menu" dict "sect" . "level" (add $.level 1) "scratch" $.scratch }}
                   {{- end -}}
                 {{- end -}}
               {{- else -}}
                 {{- range .Pages.ByWeight -}}
                   {{- if and .Params.hidden (not $.showhidden) -}}
                   {{- else -}}
-                    {{template "open-menu" dict "sect" . "currentnode" $currentNode "level" (add $.level 1) "scratch" $.scratch }}
+                    {{template "open-menu" dict "sect" . "level" (add $.level 1) "scratch" $.scratch }}
                   {{- end -}}
                 {{- end -}}
               {{- end}}
