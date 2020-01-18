@@ -54,11 +54,17 @@
 <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
 
 <!-- CSS Implementing Plugins -->
-<link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
-<link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
-<link rel="stylesheet" href="vendor/jquery-ui/themes/base/jquery-ui.min.css">
-<link rel="stylesheet" href="vendor/prism/prism.css">
+<link rel="stylesheet" href="/assets/vendor/font-awesome/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" href="/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+<link rel="stylesheet" href="/assets/vendor/prism/prism.css">
 
 <!-- CSS Template -->
-<link rel="stylesheet" href="css/theme.min.css">
-<link rel="stylesheet" href="css/layout.min.css">
+{{ if .Site.IsServer }}
+<link rel="stylesheet" href="/assets/css/theme.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+{{ else }}
+{{/* only in prod */}}
+<link rel="stylesheet" href="/assets/dist/css/theme.min.css">
+<link rel="stylesheet" href="/assets/dist/css/layout.min.css">
+{{ end }}
