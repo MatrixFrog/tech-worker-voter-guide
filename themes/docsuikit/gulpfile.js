@@ -100,6 +100,7 @@ gulp.task('default', ['watch', 'sass', 'serve'])
 gulp.task('minCSS', function() {
   return gulp.src([
     './static/assets/css/theme.css',
+    './static/assets/css/layout.css',
   ])
   .pipe(cssnano())
   .pipe(rename({suffix: '.min'}))
