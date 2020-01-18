@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+{{ with .Site.LanguageCode }}<html lang="{{ . }}">{{ else }}<html>{{ end }}
+<head>
+{{- partial "head.html" . -}}
+{{- partial "custom-head.html" . -}}
+</head>
+{{- partial "prepend-body.html" . -}}
+<body class="bg-white">
+  {{- partial "site-header.html" . -}}
+  <div class="container-fluid">
+    <div class="row">
+      {{- partial "sidebar.html" . -}}
+      <main class="ml-md-auto col-md-9 col-xl-10 px-4 pt-0 pt-md-11">
+        <div class="row pt-3">
+          {{- partial "content-nav.html" . -}}
+          <div class="col-xl-10 order-xl-1 duik-content border-bottom">
+          {{- block "main" . -}}{{- end -}}
+        </div>
+        {{- partial "footer.html" . -}}
+      </main>
+    </div>
+  </div>
+  <!-- Go to Top -->
+  <a class="js-go-to duik-go-to" href="javascript:;">
+    <span class="fa fa-arrow-up duik-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="vendor/jquery/dist/jquery.min.js"></script>
+  <script src="vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="vendor/prism/prism.js"></script>
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+  <script src="js/autocomplete.js"></script>
+  <script src="js/custom-scrollbar.js"></script>
+</body>
+</html>

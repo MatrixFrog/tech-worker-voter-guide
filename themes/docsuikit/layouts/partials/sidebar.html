@@ -1,0 +1,73 @@
+<!-- Sidebar -->
+<nav class="col-md-3 col-xl-2 bg-light duik-sidebar navbar-expand-md">
+  <div class="d-flex d-md-none justify-content-between mb-5">
+    <!-- Sidebar Search -->
+    <form class="col form-inline input-group-sm">
+      <input class="js-search form-control form-control-sm w-100" type="text" placeholder="Search..." data-url="json/autocomplete-data-for-documentation-search.json">
+    </form>
+    <!-- End Sidebar Search -->
+
+    <!-- Responsive Toggle Button -->
+    <button class="btn btn-link pl-0" type="button" data-toggle="collapse" data-target="#sidebar-nav" aria-controls="sidebar-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+        <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+      </svg>
+    </button>
+    <!-- End Responsive Toggle Button -->
+  </div>
+
+  <!-- Sidebar Nav -->
+  <div class="collapse navbar-collapse" id="sidebar-nav">
+    <div class="js-scrollbar duik-sidebar-sticky">
+      {{- .Scratch.Set "uid" .UniqueID -}}
+      {{ range .Site.Home.Sections.ByTitle }}
+        <h1 class="duik-sidebar__heading"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+        <ul class="duik-sidebar__nav">
+          {{ range .Page.Pages.ByTitle }}
+            {{template "open-menu" dict "sect" . "currentnode" . "level" 2}}
+          {{ end }}
+        </ul>
+      {{ end }}
+    </div>
+  </div>
+  <!-- End Sidebar Nav -->
+</nav>
+<!-- End Sidebar -->
+
+{{define "open-menu"}}
+  {{- $currentNode := .currentnode -}}
+  {{ with .sect }}
+    <li class="duik-sidebar__item">
+      {{ if .IsSection }}
+        {{ if in .Site.Params.menu_exclusion .Section }}
+        {{- else -}}
+          <h{{ $.level }} class="duik-sidebar__heading"><a class="duik-sidebar__link{{ if eq (.Scratch.Get "uid") $currentNode.UniqueID }} active{{ end }}" href="{{ .URL }}">{{ .Title }}</a></h{{ $.level }}>
+          {{ if .Pages }}
+            <ul class="duik-sidebar__nav">
+              {{- if eq .Site.Params.ordersectionsby "title" -}}
+                {{- range .Pages.ByTitle -}}
+                  {{- if and .Params.hidden (not $.showhidden) -}}
+                  {{- else -}}
+                    {{template "open-menu" dict "sect" . "currentnode" $currentNode "level" (add $.level 1)}}
+                  {{- end -}}
+                {{- end -}}
+              {{- else -}}
+                {{- range .Pages.ByWeight -}}
+                  {{- if and .Params.hidden (not $.showhidden) -}}
+                  {{- else -}}
+                    {{template "open-menu" dict "sect" . "currentnode" $currentNode "level" (add $.level 1)}}
+                  {{- end -}}
+                {{- end -}}
+              {{- end}}
+            </ul>
+            </li>
+          {{end}}
+        {{- end -}}
+      {{ else }}
+        {{- if not .Params.Hidden -}}
+          <a class="duik-sidebar__link{{ if eq .UniqueID $currentNode.UniqueID }} active{{ end }}" href="{{ .URL }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a>
+        {{- end -}}
+      {{ end -}}
+    </li>
+  {{ end -}}
+{{ end }}

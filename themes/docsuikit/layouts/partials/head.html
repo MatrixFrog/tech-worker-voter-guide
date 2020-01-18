@@ -1,0 +1,64 @@
+<!-- Title -->
+{{- if eq .Title "" }}
+<title>{{ .Site.Title }}</title>
+{{- else }}
+<title>{{ .Title }} - {{ .Site.Title }}</title>
+{{- end }}
+
+<!-- Required Meta Tags Always Come First -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="img/favicon.png">
+
+<!--  Meta tags -->
+<meta name="keywords" content="tech workers, san francisco, voter guide, democrats, election, how to vote">
+
+{{- if ne .Description "" }}
+<meta name="description" content="{{ .Description }}">
+{{- else if isset .Site.Params "description" }}
+<meta name="description" content="{{ .Site.Params.description }}">
+{{- end }}
+
+<!-- Schema.org -->
+<meta itemprop="name" content="Documentation Help Desk by Htmlstream">
+<meta itemprop="description" content="Docs UI Kit is beautiful Open Source Bootstrap 4 UI Kit under MIT license. The UI Kit comes with 10 beautiful complete and functional pages including lots of reusable and customizable UI Blocks. Every component crafted with love to speed up your workflow.">
+<meta itemprop="image" content="img/docs-ui-kit-thumbnail.jpg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="product">
+<meta name="twitter:site" content="https://techworkers.vote">
+<meta name="twitter:title" content="Tech Worker Voter Guide">
+{{- if ne .Description "" }}
+<meta name="twitter:description" content="{{ .Description }}">
+{{- else if isset .Site.Params "description" }}
+<meta name="twitter:description" content="{{ .Site.Params.description }}">
+{{- end }}
+<meta name="twitter:creator" content="@techworkervoterguide">
+<meta name="twitter:image" content="img/twitter.jpg">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Documentation Help Desk by Htmlstream">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://techworkers.vote">
+<meta property="og:image" content="img/docs-ui-kit-thumbnail.jpg">
+{{- if ne .Description "" }}
+<meta name="og:description" content="{{ .Description }}">
+{{- else if isset .Site.Params "description" }}
+<meta name="og:description" content="{{ .Site.Params.description }}">
+{{- end }}
+<meta property="og:site_name" content="Tech Worker Voter Guide">
+
+<!-- Google Fonts -->
+<link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
+
+<!-- CSS Implementing Plugins -->
+<link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+<link rel="stylesheet" href="vendor/jquery-ui/themes/base/jquery-ui.min.css">
+<link rel="stylesheet" href="vendor/prism/prism.css">
+
+<!-- CSS Template -->
+<link rel="stylesheet" href="css/theme.min.css">
+<link rel="stylesheet" href="css/layout.min.css">
