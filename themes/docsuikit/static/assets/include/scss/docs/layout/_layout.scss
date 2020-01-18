@@ -68,24 +68,49 @@
   }
 
   &__heading {
-    font-size: .84rem;
-    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: {
-      left: calc(.7rem + 4px);
-      right: 1rem;
+    padding: 0;
+    margin: {
+      top: 0;
+      bottom: 0;
     }
+  }
+
+  h1 {
+    font-size: $font-size-base;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: $font-size-base * .9;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: $font-size-base * .8;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: $font-size-base * .8;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: $font-size-base * .8;
+    font-weight: 700;
   }
 
   &__nav {
     list-style: none;
-    margin-bottom: 2rem;
+    margin: 0;
     padding-left: 0;
   }
 
   &__item {
-    font-size: $small-font-size;
+    font-size: $font-size-base * 0.9;
+    padding-left: .7rem;
   }
 
   &__link {
