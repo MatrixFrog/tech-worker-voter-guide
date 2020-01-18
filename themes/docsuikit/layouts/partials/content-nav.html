@@ -1,18 +1,17 @@
 <!-- Content Nav -->
 <div class="col-xl-2 order-xl-2 d-none d-xl-inline-block">
   <ul class="js-scroll-nav duik-content-nav">
-    <li class="duik-content-nav__item"><a href="#doc-about">About</a></li>
-    <li class="duik-content-nav__item"><a href="#doc-whats-included">What’s Included</a></li>
-    <li class="duik-content-nav__item"><a href="#doc-getting-started">Getting Started</a></li>
-    <li class="duik-content-nav__item"><a href="#doc-starter-template">Starter Template</a></li>
-    <li class="duik-content-nav__item">
-      <a href="#important-globals">Important globals</a>
-      <ul>
-        <li class="duik-content-nav__item"><a href="#html5-doctype">HTML5 doctype</a></li>
-        <li class="duik-content-nav__item"><a href="#responsive-meta-tag">Responsive tag</a></li>
-      </ul>
-    </li>
+    {{ template "li" . }}
   </ul>
 </div>
 <!-- End Content Nav -->
 
+{{ define "li" }}
+{{ range .Pages.ByTitle }}
+<li class="duik-content-nav__item"><a href="#{{ urlize .Title }}">{{ .Title }}</a>
+  {{ if .Pages }}
+    <ul>{{ template "li" . }}</ul>
+  {{ end }}
+</li>
+{{ end }}
+{{ end }}
