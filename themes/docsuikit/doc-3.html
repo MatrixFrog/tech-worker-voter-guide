@@ -40,14 +40,14 @@
   <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <link rel="stylesheet" href="assets/vendor/font-awesome/css/fontawesome-all.min.css">
-  <link rel="stylesheet" href="assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
-  <link rel="stylesheet" href="assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
-  <link rel="stylesheet" href="assets/vendor/prism/prism.css">
+  <link rel="stylesheet" href="static/assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="static/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+  <link rel="stylesheet" href="static/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="static/assets/vendor/prism/prism.css">
 
   <!-- CSS Template -->
-  <link rel="stylesheet" href="assets/css/theme.css">
-  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="static/assets/css/theme.css">
+  <link rel="stylesheet" href="static/assets/css/layout.css">
 </head>
 <body class="bg-white">
   <div class="container-fluid">
@@ -56,7 +56,7 @@
       <nav class="col-md-4 col-lg-3 col-xl-2 bg-dark text-white duik-sidebar duik-sidebar--dark ui-autocomplete-wrapper--dark navbar-expand-md pt-0">
         <div class="d-flex justify-content-between bg-black-soft w-100">
           <a class="d-block w-md-100 p-3 mr-md-0" href="home-page-1.html">
-            <img class="mr-2" src="assets/img/logo-light.png" alt="Docs UI Kit" style="width: 125px;">
+            <img class="mr-2" src="static/assets/img/logo-light.png" alt="Docs UI Kit" style="width: 125px;">
             <span class="small">
               <span class="badge badge-light text-space-1">v1.0.0</span>
             </span>
@@ -73,7 +73,7 @@
 
         <!-- Header Search -->
         <div class="mb-4">
-          <input class="js-search form-control form-control-sm w-100 form-control-dark bg-white-11 text-white border-0 rounded-0" type="text" placeholder="Search..." aria-label="Search..." data-url="assets/include/json/autocomplete-data-for-documentation-search.json">
+          <input class="js-search form-control form-control-sm w-100 form-control-dark bg-white-11 text-white border-0 rounded-0" type="text" placeholder="Search..." aria-label="Search..." data-url="static/assets/include/json/autocomplete-data-for-documentation-search.json">
         </div>
         <!-- End Header Search -->
 
@@ -204,7 +204,7 @@
               <pre class="mb-4">
                 <code class="language-plaintext" data-lang="plaintext">
                   docs-ui-kit/
-                  ├── assets/
+                  ├── static/assets/
                   │   ├── css/
                   │   │   ├── styles.css
                   │   │   ├── styles.min.css
@@ -323,11 +323,11 @@
                   </code>
                 </pre>
 
-                <p>Now you can try making some changes to <code>assets/include/scss/styles.scss</code> and save it.</p>
+                <p>Now you can try making some changes to <code>static/assets/include/scss/styles.scss</code> and save it.</p>
 
                 <div class="duik-callout duik-callout-danger mb-7">
                   <h4 class="h5 text-danger">Important!</h4>
-                  <p class="mb-0">if you are updating any <code>variables</code>, please make sure to save <code>_custom.bootstrap.variables.scss</code> file. It must be refreshed when any varialbes is udated as we updated core Bootstrap codes through SASS to avoid code duplications. The file is located in the following path: <code>assets/include/scss/vendors/bootstrap/..</code></p>
+                  <p class="mb-0">if you are updating any <code>variables</code>, please make sure to save <code>_custom.bootstrap.variables.scss</code> file. It must be refreshed when any varialbes is udated as we updated core Bootstrap codes through SASS to avoid code duplications. The file is located in the following path: <code>static/assets/include/scss/vendors/bootstrap/..</code></p>
                   <hr>
                   <p class="mb-0">OR simply re-run Gulp and all changes will be automatically up to date.</p>
                 </div>
@@ -361,10 +361,10 @@
                       &lt;link href="//fonts.googleapis.com/css?family=Playfair+Display:400,700%7COpen+Sans:300,400,600,700" rel="stylesheet"&gt;
 
                       &lt;!-- Bootstrap CSS --&gt;
-                      &lt;link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap/css/bootstrap.css"&gt;
+                      &lt;link rel="stylesheet" type="text/css" href="static/assets/vendors/bootstrap/css/bootstrap.css"&gt;
 
                       &lt;!-- Theme Styles --&gt;
-                      &lt;link rel="stylesheet" type="text/css" href="assets/css/styles.css"&gt;
+                      &lt;link rel="stylesheet" type="text/css" href="static/assets/css/styles.css"&gt;
                     &lt;/head&gt;
 
                     &lt;body&gt;
@@ -372,13 +372,13 @@
 
                       &lt;!-- JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) --&gt;
                       &lt;!-- Global Vendor --&gt;
-                      &lt;script src="assets/vendors/jquery.min.js"&gt;&lt;/script&gt;
-                      &lt;script src="assets/vendors/jquery.migrate.min.js"&gt;&lt;/script&gt;
-                      &lt;script src="assets/vendors/popper.min.js"&gt;&lt;/script&gt;
-                      &lt;script src="assets/vendors/bootstrap/js/bootstrap.min.js"&gt;&lt;/script&gt;
+                      &lt;script src="static/assets/vendors/jquery.min.js"&gt;&lt;/script&gt;
+                      &lt;script src="static/assets/vendors/jquery.migrate.min.js"&gt;&lt;/script&gt;
+                      &lt;script src="static/assets/vendors/popper.min.js"&gt;&lt;/script&gt;
+                      &lt;script src="static/assets/vendors/bootstrap/js/bootstrap.min.js"&gt;&lt;/script&gt;
 
                       &lt;!-- Theme Settings and Calls --&gt;
-                      &lt;script src="assets/js/main.js"&gt;&lt;/script&gt;
+                      &lt;script src="static/assets/js/main.js"&gt;&lt;/script&gt;
                       &lt;!-- END JAVASCRIPTS --&gt;
                     &lt;/body&gt;
                   &lt;/html&gt;
@@ -507,22 +507,22 @@
   <!-- End Go to Top -->
 
   <!-- JS Global Compulsory -->
-  <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
-  <script src="assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-  <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-  <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="static/assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="static/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="static/assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="static/assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
 
   <!-- JS Implementing Plugins -->
-  <script src="assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
-  <script src="assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
-  <script src="assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
-  <script src="assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
-  <script src="assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
-  <script src="assets/vendor/prism/prism.js"></script>
+  <script src="static/assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="static/assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="static/assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="static/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="static/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="static/assets/vendor/prism/prism.js"></script>
 
   <!-- JS -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/autocomplete.js"></script>
-  <script src="assets/js/custom-scrollbar.js"></script>
+  <script src="static/assets/js/main.js"></script>
+  <script src="static/assets/js/autocomplete.js"></script>
+  <script src="static/assets/js/custom-scrollbar.js"></script>
 </body>
 </html>

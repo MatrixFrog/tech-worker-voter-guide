@@ -33,8 +33,8 @@ function errorLog(error) {
 //
 gulp.task('sass', function () {
  // Theme
- gulp.src('./assets/include/scss/**/*.scss')
-  .pipe(changed('./assets/css/'))
+ gulp.src('./static/assets/include/scss/**/*.scss')
+  .pipe(changed('./static/assets/css/'))
   .pipe(sass({ outputStyle: 'expanded' }))
   .on('error', sass.logError)
   .pipe(autoprefixer([
@@ -48,7 +48,7 @@ gulp.task('sass', function () {
       "Safari >= 9",
       "Android >= 4.4",
       "Opera >= 30"], { cascade: true }))
-  .pipe(gulp.dest('./assets/css/'))
+  .pipe(gulp.dest('./static/assets/css/'))
   .pipe(browserSync.stream());
 });
 
@@ -83,7 +83,7 @@ gulp.task('serve', function() {
 //
 //
 gulp.task('watch', function() {
-  gulp.watch('./assets/include/scss/**/*.scss', ['sass']);
+  gulp.watch('./static/assets/include/scss/**/*.scss', ['sass']);
   gulp.watch('./html/**/*.html').on('change', browserSync.reload);
   gulp.watch('./starter/**/*.html').on('change', browserSync.reload);
   gulp.watch('./documentation/**/*.html').on('change', browserSync.reload);
@@ -99,11 +99,11 @@ gulp.task('default', ['watch', 'sass', 'serve'])
 //
 gulp.task('minCSS', function() {
   return gulp.src([
-    './assets/css/theme.css',
+    './static/assets/css/theme.css',
   ])
   .pipe(cssnano())
   .pipe(rename({suffix: '.min'}))
-  .pipe(gulp.dest('./dist/assets/css/'));
+  .pipe(gulp.dest('./static/dist/assets/css/'));
 });
 
 
@@ -113,16 +113,16 @@ gulp.task('minCSS', function() {
 //
 gulp.task('minJS', function() {
   return gulp.src([
-    './assets/js/main.js',
-    './assets/js/autocomplete.js',
-    './assets/js/custom-scrollbar.js',
-    './assets/js/sticky-sidebar.js',
-    './assets/js/header-fixing.js',
-    './assets/js/theme-custom.js'
+    './static/assets/js/main.js',
+    './static/assets/js/autocomplete.js',
+    './static/assets/js/custom-scrollbar.js',
+    './static/assets/js/sticky-sidebar.js',
+    './static/assets/js/header-fixing.js',
+    './static/assets/js/theme-custom.js'
   ])
   .pipe(concat('theme.min.js'))
   .pipe(uglify())
-  .pipe(gulp.dest('./dist/assets/js/'));
+  .pipe(gulp.dest('./static/dist/assets/js/'));
 });
 
 
@@ -131,7 +131,7 @@ gulp.task('minJS', function() {
 //
 
 gulp.task('minIMG', function() {
-  return gulp.src('./assets/img-temp/**/*')
+  return gulp.src('./static/assets/img-temp/**/*')
     .pipe(cache(imagemin([
       imagemin.gifsicle({interlaced: true}),
       imagemin.jpegtran({progressive: true}),
@@ -147,7 +147,7 @@ gulp.task('minIMG', function() {
     ],{
       verbose: true
     })))
-    .pipe(gulp.dest('./dist/assets/img-temp/'));
+    .pipe(gulp.dest('./static/dist/assets/img-temp/'));
 });
 
 
