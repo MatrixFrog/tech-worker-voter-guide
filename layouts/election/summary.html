@@ -2,10 +2,7 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 
-{{/* Details */}}
-<h1>Details</h1>
-
-{{ partial "election-detail.html" (dict "Page" . "level" 3) }}
+{{ partial "election-detail.html" (dict "Page" . "level" 2) }}
 
 <style type="text/css">
 
