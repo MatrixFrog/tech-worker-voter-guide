@@ -33,8 +33,8 @@ function errorLog(error) {
 //
 gulp.task('sass', function () {
  // Theme
- gulp.src('./scss/**/*.scss')
-  .pipe(changed('../static/css/'))
+ gulp.src('./srv/scss/**/*.scss')
+  .pipe(changed('./static/css/'))
   .pipe(sass({ outputStyle: 'expanded' }))
   .on('error', sass.logError)
   .pipe(autoprefixer([
@@ -48,7 +48,7 @@ gulp.task('sass', function () {
       "Safari >= 9",
       "Android >= 4.4",
       "Opera >= 30"], { cascade: true }))
-  .pipe(gulp.dest('../static/css/'))
+  .pipe(gulp.dest('./static/css/'))
   .pipe(browserSync.stream());
 });
 
@@ -59,7 +59,7 @@ gulp.task('sass', function () {
 //
 //
 gulp.task('watch', function() {
-  gulp.watch('./scss/**/*.scss', ['sass']);
+  gulp.watch('./src/scss/**/*.scss', ['sass']);
 });
 
 // Gulp Tasks
@@ -72,11 +72,11 @@ gulp.task('default', ['watch', 'sass', 'serve'])
 //
 gulp.task('minCSS', function() {
   return gulp.src([
-    '../static/css/theme.css',
+    './static/css/theme.css',
   ])
   .pipe(cssnano())
   .pipe(rename({suffix: '.min'}))
-  .pipe(gulp.dest('../static/css/min/'));
+  .pipe(gulp.dest('./static/css/'));
 });
 
 
@@ -86,16 +86,16 @@ gulp.task('minCSS', function() {
 //
 gulp.task('minJS', function() {
   return gulp.src([
-    '../statis/js/main.js',
-    '../static/js/autocomplete.js',
-    '../static/js/custom-scrollbar.js',
-    '../static/js/sticky-sidebar.js',
-    '../static/js/header-fixing.js',
-    '../static/js/theme-custom.js'
+    './static/js/main.js',
+    './static/js/autocomplete.js',
+    './static/js/custom-scrollbar.js',
+    './static/js/sticky-sidebar.js',
+    './static/js/header-fixing.js',
+    './static/js/theme-custom.js'
   ])
   .pipe(concat('theme.min.js'))
   .pipe(uglify())
-  .pipe(gulp.dest('../static/js/min/'));
+  .pipe(gulp.dest('./static/js/'));
 });
 
 
@@ -104,7 +104,7 @@ gulp.task('minJS', function() {
 //
 
 gulp.task('minIMG', function() {
-  return gulp.src('./img-temp/**/*')
+  return gulp.src('./src/img-temp/**/*')
     .pipe(cache(imagemin([
       imagemin.gifsicle({interlaced: true}),
       imagemin.jpegtran({progressive: true}),
@@ -120,7 +120,7 @@ gulp.task('minIMG', function() {
     ],{
       verbose: true
     })))
-    .pipe(gulp.dest('../static/img-temp/'));
+    .pipe(gulp.dest('./static/img-temp/'));
 });
 
 
