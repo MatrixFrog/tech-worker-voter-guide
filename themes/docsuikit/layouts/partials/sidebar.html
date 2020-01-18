@@ -19,12 +19,15 @@
   <!-- Sidebar Nav -->
   <div class="collapse navbar-collapse" id="sidebar-nav">
     <div class="js-scrollbar duik-sidebar-sticky">
-      {{- .Scratch.Set "uid" .UniqueID -}}
+      {{ $scratch := newScratch }}
+      {{ $scratch.Set "uid" .UniqueID }}
       {{ range .Site.Home.Sections.ByTitle }}
-        <h1 class="duik-sidebar__heading"><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
         <ul class="duik-sidebar__nav">
+          <li class="duik-sidebar__nav">
+            <h1 class="duik-sidebar__heading"><a data-suid="{{ ($scratch.Get "uid") }}" data-uid="{{ .UniqueID }}" class="duik-sidebar__link{{ if eq ($scratch.Get "uid") .UniqueID }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></h1>
+          </li>
           {{ range .Page.Pages.ByTitle }}
-            {{template "open-menu" dict "sect" . "currentnode" . "level" 2}}
+            {{template "open-menu" dict "sect" . "currentnode" . "level" 2 "scratch" $scratch }}
           {{ end }}
         </ul>
       {{ end }}
@@ -41,21 +44,21 @@
       {{ if .IsSection }}
         {{ if in .Site.Params.menu_exclusion .Section }}
         {{- else -}}
-          <h{{ $.level }} class="duik-sidebar__heading"><a class="duik-sidebar__link{{ if eq (.Scratch.Get "uid") $currentNode.UniqueID }} active{{ end }}" href="{{ .URL }}">{{ .Title }}</a></h{{ $.level }}>
+          <h{{ $.level }} class="duik-sidebar__heading"><a class="duik-sidebar__link{{ if eq ($.scratch.Get "uid") .UniqueID }} active{{ end }}" href="{{ .URL }}">{{ .Title }}</a></h{{ $.level }}>
           {{ if .Pages }}
             <ul class="duik-sidebar__nav">
               {{- if eq .Site.Params.ordersectionsby "title" -}}
                 {{- range .Pages.ByTitle -}}
                   {{- if and .Params.hidden (not $.showhidden) -}}
                   {{- else -}}
-                    {{template "open-menu" dict "sect" . "currentnode" $currentNode "level" (add $.level 1)}}
+                    {{template "open-menu" dict "sect" . "currentnode" $currentNode "level" (add $.level 1) "scratch" $.scratch }}
                   {{- end -}}
                 {{- end -}}
               {{- else -}}
                 {{- range .Pages.ByWeight -}}
                   {{- if and .Params.hidden (not $.showhidden) -}}
                   {{- else -}}
-                    {{template "open-menu" dict "sect" . "currentnode" $currentNode "level" (add $.level 1)}}
+                    {{template "open-menu" dict "sect" . "currentnode" $currentNode "level" (add $.level 1) "scratch" $.scratch }}
                   {{- end -}}
                 {{- end -}}
               {{- end}}
@@ -65,7 +68,7 @@
         {{- end -}}
       {{ else }}
         {{- if not .Params.Hidden -}}
-          <a class="duik-sidebar__link{{ if eq .UniqueID $currentNode.UniqueID }} active{{ end }}" href="{{ .URL }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a>
+          <a class="duik-sidebar__link{{ if eq ($.scratch.Get "uid") .UniqueID }} active{{ end }}" href="{{ .URL }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a>
         {{- end -}}
       {{ end -}}
     </li>
