@@ -21,16 +21,17 @@
     <div class="js-scrollbar duik-sidebar-sticky">
       {{ $scratch := newScratch }}
       {{ $scratch.Set "uid" .UniqueID }}
-      {{ range .Site.Home.Sections.ByTitle }}
-        <ul class="duik-sidebar__nav">
-          <li class="duik-sidebar__nav">
-            <h1 class="duik-sidebar__heading"><a data-suid="{{ ($scratch.Get "uid") }}" data-uid="{{ .UniqueID }}" class="duik-sidebar__link{{ if eq ($scratch.Get "uid") .UniqueID }} active{{ end }}" href="{{ .Permalink }}">{{ .Title }}</a></h1>
-          </li>
-          {{ range .Page.Pages.ByTitle }}
-            {{template "open-menu" dict "sect" . "currentnode" . "level" 2 "scratch" $scratch }}
+      <ul class="duik-sidebar__nav">
+        {{- if eq .Site.Params.ordersectionsby "title" -}}
+          {{ range .Site.Home.Sections.ByTitle }}
+            {{template "open-menu" dict "sect" . "currentnode" . "level" 1 "scratch" $scratch }}
           {{ end }}
-        </ul>
-      {{ end }}
+        {{- else -}}
+          {{ range .Site.Home.Sections.ByWeight }}
+            {{template "open-menu" dict "sect" . "currentnode" . "level" 1 "scratch" $scratch }}
+          {{ end }}
+        {{- end -}}
+      </ul>
     </div>
   </div>
   <!-- End Sidebar Nav -->
