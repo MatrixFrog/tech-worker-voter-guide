@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Title -->
-  <title>Help Desk | Docs - UI Kit</title>
+  <title>Home Page | Docs - UI Kit</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -40,18 +40,23 @@
   <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
 
   <!-- CSS Implementing Plugins -->
-  <link rel="stylesheet" href="assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
 
   <!-- CSS Template -->
-  <link rel="stylesheet" href="assets/css/theme.css">
+  <link rel="stylesheet" href="css/theme.css">
+
+  <!-- CSS Demo -->
+  <link rel="stylesheet" href="css/demo.css">
 </head>
+
 <body>
   <!-- Header -->
   <header class="duik-header">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark gradient-dark position-absolute left-0 right-0 flex-nowrap z-index-3">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary position-absolute left-0 right-0 flex-nowrap z-index-3">
       <div class="container">
-        <a class="navbar-brand" href="home-page-1.html"><img src="assets/img/logo-light.png" alt="Docs UI Kit" style="width: 150px;"></a>
+        <a class="navbar-brand" href="home-page-1.html"><img src="img/logo-light.png" alt="Docs UI Kit" style="width: 150px;"></a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -66,15 +71,15 @@
 
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item ml-lg-6 mb-2 mb-lg-0">
-              <a class="nav-link px-0" href="home-page-1.html">Home</a>
+              <a class="nav-link px-0 active" href="home-page-1.html">Home</a>
             </li>
-            <li class="nav-item dropdown active ml-lg-6 mb-2 mb-lg-0">
+            <li class="nav-item dropdown ml-lg-6 mb-2 mb-lg-0">
               <a class="nav-link px-0" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Pages <i class="fas fa-angle-down small ml-1"></i>
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="home-page-2.html">Home Option</a>
-                <a class="dropdown-item active" href="home-page-3.html">Home Dark</a>
+                <a class="dropdown-item" href="home-page-3.html">Home Dark</a>
                 <a class="dropdown-item" href="article.html">Article</a>
                 <a class="dropdown-item" href="faq.html">FAQ</a>
                 <a class="dropdown-item" href="contacts.html">Contacts</a>
@@ -103,9 +108,9 @@
   <!-- End Header -->
 
   <!-- Promo Section -->
-  <section class="duik-promo gradient-dark text-center">
+  <section class="duik-promo bg-primary text-center">
     <div class="container duik-promo-container">
-      <div class="d-flex justify-content-center position-relative mh-35rem pt-11 py-6">
+      <div class="d-flex justify-content-center position-relative mh-35rem py-11">
         <div class="align-self-center w-md-75">
           <h1 class="text-white mb-5">Hello, how can we help you?</h1>
 
@@ -123,89 +128,152 @@
 
     <!-- SVG BG -->
     <svg class="position-absolute bottom-0 left-0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 323" enable-background="new 0 0 1920 323" xml:space="preserve">
-      <polygon fill="#ffffff" style="fill-opacity: .03;" points="-0.5,322.5 -0.5,121.5 658.3,212.3 "></polygon>
-      <polygon fill="#ffffff" style="fill-opacity: .07;" points="-2,323 1920,323 1920,-1 "></polygon>
+      <polygon fill="#ffffff" style="fill-opacity: .05;" points="-0.5,322.5 -0.5,121.5 658.3,212.3 "></polygon>
+      <polygon fill="#ffffff" style="fill-opacity: .1;" points="-2,323 1920,323 1920,-1 "></polygon>
     </svg>
     <!-- End SVG BG -->
   </section>
   <!-- End Promo Section -->
 
-  <main>
-    <section class="text-center pt-11 pb-6">
-      <div class="container">
-        <div class="w-md-75 w-lg-50 mx-auto text-center mb-5">
-          <h2 class="h3 text-center">Knowledge Base</h2>
-          <p>Htmlstream community is your first stop for questions and advice about the UI Kit. Welcome to the community!</p>
+  <!-- Icon Blocks -->
+  <div class="container z-index-2 position-relative">
+    <section class="duik-icon-block duik-icon-block--pull2top rounded">
+      <div class="row no-gutters">
+        <div class="col-md border-bottom border-md-bottom-0">
+          <div class="duik-icon-block__item">
+            <svg class="duik-icon-svg-primary duik-icon-svg-3x mb-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+
+            <h4 class="h5 mb-2">
+              <a class="link-dark" href="#">FAQ</a>
+            </h4>
+            <span>You have frequent questions, <br> we have the answers</span>
+          </div>
         </div>
+        <div class="col-md border-md-left border-bottom border-md-bottom-0">
+          <div class="duik-icon-block__item">
+            <svg class="duik-icon-svg-primary duik-icon-svg-3x mb-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline><path d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"></path></svg>
 
-        <div class="row">
-          <div class="col-md-4 mb-5">
-            <div class="card p-3 border-0 shadow">
-              <div class="card-header border-0"><i class="fas fa-th fa-3x text-dark"></i></div>
-              <div class="card-body pt-0">
-                <h4 class="h5 mb-2"><a class="link-dark" href="article.html">Hosting</a></h4>
-                <p class="card-text mb-4">We strive to embrace and drive change in our industry.</p>
-              </div>
-            </div>
+            <h4 class="h5 mb-2">
+              <a class="link-dark" href="#">Support Ticket</a>
+            </h4>
+            <span>Can't find what you are <br> looking for - Submit a ticket</span>
           </div>
+        </div>
+        <div class="col-md border-md-left">
+          <div class="duik-icon-block__item">
+            <svg class="duik-icon-svg-primary duik-icon-svg-3x mb-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
 
-          <div class="col-md-4 mb-5">
-            <div class="card p-3 border-0 shadow">
-              <div class="card-header border-0"><i class="fas fa-server fa-3x text-dark"></i></div>
-              <div class="card-body pt-0">
-                <h4 class="h5 mb-2"><a class="link-dark" href="article.html">Servers</a></h4>
-                <p class="card-text mb-4">We strive to embrace and drive change in our industry.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 mb-5">
-            <div class="card p-3 border-0 shadow">
-              <div class="card-header border-0"><i class="far fa-hdd fa-3x text-dark"></i></div>
-              <div class="card-body pt-0">
-                <h4 class="h5 mb-2"><a class="link-dark" href="article.html">VDS</a></h4>
-                <p class="card-text mb-4">We strive to embrace and drive change in our industry.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 mb-5">
-            <div class="card p-3 border-0 shadow">
-              <div class="card-header border-0"><i class="fa fa-users fa-3x text-dark"></i></div>
-              <div class="card-body pt-0">
-                <h4 class="h5 mb-2"><a class="link-dark" href="article.html">Accounts</a></h4>
-                <p class="card-text mb-4">We strive to embrace and drive change in our industry.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 mb-5">
-            <div class="card p-3 border-0 shadow">
-              <div class="card-header border-0"><i class="far fa-credit-card fa-3x text-dark"></i></div>
-              <div class="card-body pt-0">
-                <h4 class="h5 mb-2"><a class="link-dark" href="article.html">Payments</a></h4>
-                <p class="card-text mb-4">We strive to embrace and drive change in our industry.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 mb-5">
-            <div class="card p-3 border-0 shadow">
-              <div class="card-header border-0"><i class="fa fa-adjust fa-3x text-dark"></i></div>
-              <div class="card-body pt-0">
-                <h4 class="h5 mb-2"><a class="link-dark" href="article.html">FAQs</a></h4>
-                <p class="card-text mb-4">We strive to embrace and drive change in our industry.</p>
-              </div>
-            </div>
+            <h4 class="h5 mb-2">
+              <a class="link-dark" href="#">Community</a>
+            </h4>
+            <span>Ask any questions from <br> expert community members</span>
           </div>
         </div>
       </div>
     </section>
+  </div>
+  <!-- End Icon Blocks -->
 
+  <main>
     <!-- Section -->
+    <section class="py-11">
+      <div class="container">
+        <div class="w-md-75 w-lg-50 mx-auto text-center mb-5">
+          <h2 class="h3 text-center">Most Helpful Articles</h2>
+          <p>Start here to find best possible answers from our experts.</p>
+        </div>
+
+        <a class="row border rounded align-items-center justify-content-between py-4 px-3 link-dark link-hover-dark bg-hover-light mx-sm-0 mb-2" href="article.html">
+          <div class="col-sm">
+            Getting started for workspace creators
+          </div>
+
+          <div class="col-sm-3 small text-lh-1">
+            <div class="media align-items-center">
+              <div class="rounded-circle mr-2">
+                <img class="img-fluid rounded-circle" src="img-temp/100x100/img1.jpg" alt="Image Description" width="33">
+              </div>
+
+              <div class="media-body">Nick Brown</div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 text-sm-right text-muted small">
+            1 minute ago
+          </div>
+        </a>
+
+        <a class="row border rounded align-items-center justify-content-between py-4 px-3 link-dark link-hover-dark bg-hover-light mx-sm-0 mb-2" href="article.html">
+          <div class="col-sm">
+            View and download invoices
+          </div>
+
+          <div class="col-sm-3 small text-lh-1">
+            <div class="media align-items-center">
+              <div class="rounded-circle mr-2">
+                <img class="img-fluid rounded-circle" src="img-temp/100x100/img4.jpg" alt="Image Description" width="33">
+              </div>
+
+              <div class="media-body">Mary Gordon</div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 text-sm-right text-muted small">
+            15 minutes ago
+          </div>
+        </a>
+
+        <a class="row border rounded align-items-center justify-content-between py-4 px-3 link-dark link-hover-dark bg-hover-light mx-sm-0 mb-2" href="article.html">
+          <div class="col-sm">
+            Getting started for new members
+          </div>
+
+          <div class="col-sm-3 small text-lh-1">
+            <div class="media align-items-center">
+              <div class="rounded-circle mr-2">
+                <img class="img-fluid rounded-circle" src="img-temp/100x100/img2.jpg" alt="Image Description" width="33">
+              </div>
+
+              <div class="media-body">Tom Pook</div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 text-sm-right text-muted small">
+            2 hour ago
+          </div>
+        </a>
+
+        <a class="row border rounded align-items-center justify-content-between py-4 px-3 link-dark link-hover-dark bg-hover-light mx-sm-0 mb-2" href="article.html">
+          <div class="col-sm">
+            Invite new members to your workspace
+          </div>
+
+          <div class="col-sm-3 small text-lh-1">
+            <div class="media align-items-center">
+              <div class="rounded-circle mr-2">
+                <img class="img-fluid rounded-circle" src="img-temp/100x100/img3.jpg" alt="Image Description" width="33">
+              </div>
+
+              <div class="media-body">Helena Shnider</div>
+            </div>
+          </div>
+
+          <div class="col-sm-2 text-sm-right text-muted small">
+            3 hour ago
+          </div>
+        </a>
+
+        <div class="text-center mt-5">
+          <a class="btn btn-sm btn-outline-primary" href="#">View All Articles<i class="fas fa-angle-right ml-2"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- End Section -->
+
+    <!-- Call To Action -->
     <div class="container">
-      <div class="card gradient-dark text-white shadow-sm">
-        <div class="card-body p-5 px-md-7">
+      <div class="card bg-primary text-white shadow-sm">
+        <div class="card-body p-5">
           <div class="d-md-flex align-items-center">
             <div class="w-100 mb-3 mb-md-0 pr-md-5">
               <h2 class="h4 font-weight-light text-white mb-0">Can't find what you're looking for?</h2>
@@ -213,69 +281,60 @@
             </div>
 
             <div class="text-md-right w-100">
-              <a class="btn btn-sm btn-light" href="#">Submit a Request</a>
+              <a class="btn btn-light" href="#">Submit a Request</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Section -->
+    <!-- End Call To Action -->
 
+    <!-- Community Help -->
     <section class="py-11">
       <div class="container">
+        <div class="w-md-75 w-lg-50 mx-auto text-center mb-5">
+          <h2 class="h3">Community Help</h2>
+          <p>Htmlstream community is your first stop for questions and advice about the UI Kit. Welcome to the community!</p>
+        </div>
+
         <div class="row">
-          <div class="col-md-4 mb-5 mb-md-0">
-            <i class="far fa-lightbulb fa-2x text-dark mb-3"></i>
-            <h3 class="h5 mb-2">Last Articles</h3>
+          <div class="col-md-6 mb-5 mb-md-0">
+            <div class="media h-100 shadow rounded p-4">
+              <i class="fab fa-slack fa-3x text-primary mr-4 mt-1"></i>
 
-            <ul class="list-unstyled">
-              <li class="mb-2"><a class="link-muted" href="article.html">What is Doc UI Kit?</a></li>
-              <li class="mb-2"><a class="link-muted" href="article.html">Getting started for workspace creators</a></li>
-              <li class="mb-2"><a class="link-muted" href="article.html">Edit your profile</a></li>
-              <li class="mb-2"><a class="link-muted" href="article.html">View and download invoices</a></li>
-              <li class="mb-2"><a class="link-dark" href="#">See all</a></li>
-            </ul>
+              <div class="media-body">
+                <h5 class="mb-1"><a class="link-dark" href="article.html">Slack Chanel</a></h5>
+                <p class="mb-0">Welcome to Docs UI Kit! We're so glad you're here. Let's get started!</p>
+              </div>
+            </div>
           </div>
 
-          <div class="col-md-4 mb-5 mb-md-0">
-            <i class="far fa-paper-plane fa-2x text-dark mb-3"></i>
-            <h3 class="h5 mb-2">Popular Articles</h3>
+          <div class="col-md-6">
+            <div class="media h-100 shadow rounded p-4">
+              <i class="fab fa-github fa-3x text-primary mr-4 mt-1"></i>
 
-            <ul class="list-unstyled">
-              <li class="mb-2"><a class="link-muted" href="article.html">Working in Doc UI Kit?</a></li>
-              <li class="mb-2"><a class="link-muted" href="article.html">Delete a page</a></li>
-              <li class="mb-2"><a class="link-muted" href="article.html">Add an app to your workspace</a></li>
-              <li class="mb-2"><a class="link-muted" href="article.html">What is Item Support?</a></li>
-              <li class="mb-2"><a class="link-dark" href="#">See all</a></li>
-            </ul>
-          </div>
-
-          <div class="col-md-4">
-            <i class="far fa-comment-dots fa-2x text-dark mb-3"></i>
-            <h3 class="h5 mb-2">Popular Forum Topics</h3>
-
-            <ul class="list-unstyled">
-              <li class="mb-2"><a class="link-muted" href="article.html">Getting started for new members</a></li>
-              <li class="mb-2"><a class="link-muted" href="article.html">Invite new members to your workspace</a></li>
-              <li class="mb-2"><a class="link-muted" href="article.html">Bundled Plugins</a></li>
-              <li class="mb-2"><a class="link-dark" href="#">See all</a></li>
-            </ul>
+              <div class="media-body">
+                <h5 class="mb-1"><a class="link-dark" href="article.html">Github Issues</a></h5>
+                <p class="mb-0">Adjust your profile and preferences to make Docs UI Kit work just for you!</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- End Community Help -->
   </main>
 
   <!-- Footer -->
-  <footer class="gradient-dark font-weight-light text-white-55 pt-11 pb-5 overflow-hidden">
+  <footer class="bg-dark font-weight-light text-white-55 pt-11 pb-5">
     <div class="container">
       <div class="row justify-content-md-between">
-        <div class="col-md-12 col-lg-4 mb-4 mr-lg-auto">
-          <img class="mb-3" src="assets/img/logo-light.png" alt="Docs UI Kit" style="width: 170px;">
+        <div class="order-4 order-lg-1 col-md-12 col-lg-4 mb-4 mr-lg-auto">
+          <img class="mb-3" src="img/logo-light.png" alt="Docs UI Kit" style="width: 170px;">
           <p class="small font-weight-light mb-3">Docs UI Kit is fully responsive template with variety of documentation layouts, functional features and ready to use pages.</p>
         </div>
 
-        <div class="col-sm-4 col-lg-2 mb-4">
+        <div class="col-sm-4 col-lg-2 mb-4 order-lg-2">
           <h4 class="h6 text-white mb-3">Company</h4>
 
           <!-- Links -->
@@ -287,7 +346,7 @@
           <!-- End Links -->
         </div>
 
-        <div class="col-sm-4 col-lg-2 mb-4">
+        <div class="col-sm-4 col-lg-2 mb-4 order-lg-3">
           <h4 class="h6 text-white mb-3">Support</h4>
 
           <!-- Links -->
@@ -299,7 +358,7 @@
           <!-- End Links -->
         </div>
 
-        <div class="col-sm-4 col-lg-2 mb-4">
+        <div class="col-sm-4 col-lg-2 mb-4 order-lg-4">
           <h4 class="h6 text-white mb-3">Contacts</h4>
 
           <!-- Links -->
@@ -315,7 +374,7 @@
 
       <div class="row">
         <div class="col-md-7">
-          <p class="small font-weight-light mb-md-0">&copy; 2019 <a class="text-white" href="https://htmlstream.com/">Htmlstream</a>. Under MIT license.</p>
+          <p class="small font-weight-light mb-0">&copy; 2019 <a class="text-white" href="https://htmlstream.com/">Htmlstream</a>. Under MIT license.</p>
         </div>
 
         <div class="col-md-5 text-md-right">
@@ -359,12 +418,15 @@
   <!-- End Go to Top -->
 
   <!-- JS Global Compulsory -->
-  <script src="assets/vendor/jquery/dist/jquery.min.js"></script>
-  <script src="assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-  <script src="assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-  <script src="assets/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="vendor/jquery/dist/jquery.min.js"></script>
+  <script src="vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
 
   <!-- JS -->
-  <script src="assets/js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>
