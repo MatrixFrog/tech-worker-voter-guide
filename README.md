@@ -10,9 +10,9 @@
 ### Developing on the theme
 
 ```sh
-sudo snap install node --classic --channel=13
+sudo snap install node --classic --channel=10
 sudo npm install --global gulp-cli
 
 sudo apt install -y libpng-dev
-cd themes/docsui && npm install
+cd themes/docsuikit && npm install
 ```
