@@ -33,7 +33,7 @@ function errorLog(error) {
 //
 gulp.task('sass', function () {
  // Theme
- gulp.src('./src/scss/**/*.scss')
+ gulp.src('./srv/scss/**/*.scss')
   .pipe(changed('./static/css/'))
   .pipe(sass({ outputStyle: 'expanded' }))
   .on('error', sass.logError)

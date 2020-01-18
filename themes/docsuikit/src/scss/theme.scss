@@ -1,5 +1,5 @@
 // Bootstrap setup
-@import '../static/vendor/bootstrap/scss/functions';
+@import '../../vendor/bootstrap/scss/functions';
 
 // Docs UI Kit setup
 @import 'docs/variables';
@@ -8,7 +8,7 @@
 @import 'user-variables';
 
 // Bootstrap core
-@import '../static/vendor/bootstrap/scss/bootstrap';
+@import '../../vendor/bootstrap/scss/bootstrap';
 
 /*----------------------------------------------------------------------
   * Docs UI Kit - Responsive Website Template
