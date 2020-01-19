@@ -1,4 +1,7 @@
 {{ range .Page.Pages.ByTitle  }}
+{{ if .Page.Params.headshot }}
+{{ partial "candidate" . }}
+{{ else }}
 <div class="candidate">
 <h{{ $.level }} id="{{ urlize .Page.Title }}"><a href="#{{ .Page.Title }}">{{ .Page.Title }}</a>{{ if .Page.Params.short }} - <small>{{ .Page.Params.short }}</small>{{ end }}</h{{ $.level }}>
   {{ if .Page.Content }}
@@ -9,4 +12,5 @@
   {{ if .Page.Pages }}
     {{ partial "election-detail.html" (dict "Page" . "level" (add $.level 1)) }}
   {{ end }}
+{{ end }}
 {{ end }}

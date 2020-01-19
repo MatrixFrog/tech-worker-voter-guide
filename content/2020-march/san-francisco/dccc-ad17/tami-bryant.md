@@ -4,14 +4,8 @@ date: 2020-01-13T22:38:17-08:00
 layout: candidate
 type: election
 weight: 8
+headshot: "/img/2020-march/san-francisco/tami-bryant.jpg"
 ---
-
-{{< figure src="/img/2020-march/san-francisco/tami-bryant.jpg"
-           alt="Tami Bryant"
-           link="/img/2020-march/san-francisco/tami-bryant.jpg"
-           class="candidate"
-           width=250
-           >}}
 
 Technology can be an equalizer for those previously isolated or without
 access to resources and information. It disseminates vital information

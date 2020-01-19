@@ -1,13 +1,3 @@
 {{- define "main" -}}
-<h1>{{ .Title }}</h1>
-{{- .Content -}}
-
-
-<style type="text/css">
-figure.candidate {
-  float: left;
-  margin-right: 1em;
-  margin-bottom: 1em;
-}
-</style>
+{{ partial "candidate" . }}
 {{- end -}}

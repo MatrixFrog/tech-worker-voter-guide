@@ -4,14 +4,8 @@ date: 2020-01-15T21:58:10-08:00
 layout: candidate
 type: election
 weight: 3
+headshot: "/img/2020-march/san-francisco/mawuli-tugbenyoh.jpg"
 ---
-
-{{< figure src="/img/2020-march/san-francisco/mawuli-tugbenyoh.jpg"
-           alt="Mawuli Tugbenyoh"
-           link="/img/2020-march/san-francisco/mawuli-tugbenyoh.jpg"
-           class="candidate"
-           width=250
-           >}}
 
 Innovation is part of the fabric of San Francisco. Going back to the 1849 gold
 rush, big thinkers with wild ideas have contributed to the significant economic
