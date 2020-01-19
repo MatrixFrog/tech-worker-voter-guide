@@ -15,7 +15,7 @@ inflated money. We also have the benefit of having [very low interest rates](htt
 Funding educational facilities is a great use of public money. We all benefit
 when our populace is well educated in good facilities.
 
-This satisfies <a href="{{< relref "/framework" >}}#Taxation.Infrastructure">#Taxation.Infrastructure</a>
+This satisfies [#Taxation.Infrastructure]({{< relref "/framework" >}}#Taxation.Infrastructure)
 from our voting framework.
 
 ### What is it?
