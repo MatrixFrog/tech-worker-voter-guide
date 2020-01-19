@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="530"
+   height="101"
+   viewBox="0 0 140.22916 26.722918"
+   version="1.1"
+   id="svg80"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/sbuss/workspace/tech-worker-voter-guide/static/img/logo.png"
+   inkscape:export-xdpi="96.067329"
+   inkscape:export-ydpi="96.067329">
+  <defs
+     id="defs74" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="294.01049"
+     inkscape:cy="52.420737"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-text-baseline="false"
+     inkscape:bbox-nodes="true"
+     inkscape:window-width="3840"
+     inkscape:window-height="2080"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     units="px">
+    <inkscape:grid
+       type="xygrid"
+       id="grid98"
+       empcolor="#ffffff"
+       empopacity="0.26666667"
+       dotted="false"
+       color="#ffffff"
+       opacity="0.1254902" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata77">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-270.27708)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot82"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0,196)"><flowRegion
+         id="flowRegion84"><rect
+           id="rect86"
+           width="67"
+           height="193"
+           x="53"
+           y="37.732269" /></flowRegion><flowPara
+         id="flowPara88" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15.18425751px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37960646"
+       x="33.787868"
+       y="282.19583"
+       id="text92"><tspan
+         sodipodi:role="line"
+         id="tspan90"
+         x="33.787868"
+         y="282.19583"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.18425751px;font-family:'Courier New';-inkscape-font-specification:'Courier New, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.37960646">Tech Worker</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20.43284798px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5108211"
+       x="1.1632866"
+       y="283.08597"
+       id="text96"><tspan
+         sodipodi:role="line"
+         id="tspan94"
+         x="1.1632866"
+         y="283.08597"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43265533px;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.5108211">TW</tspan></text>
+    <text
+       id="text3805"
+       y="295.61243"
+       x="1.1632866"
+       style="font-style:normal;font-weight:normal;font-size:20.43284798px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5108211"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.43265533px;font-family:'Courier New';-inkscape-font-specification:'Courier New, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.5108211"
+         y="295.61243"
+         x="1.1632866"
+         id="tspan3803"
+         sodipodi:role="line">VG</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:14.96127892px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37403193"
+       x="33.787868"
+       y="294.1131"
+       id="text3809"><tspan
+         sodipodi:role="line"
+         id="tspan3807"
+         x="33.787868"
+         y="294.1131"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.96127892px;font-family:'Courier New';-inkscape-font-specification:'Courier New, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.37403193">Voter Guide</tspan></text>
+  </g>
+</svg>

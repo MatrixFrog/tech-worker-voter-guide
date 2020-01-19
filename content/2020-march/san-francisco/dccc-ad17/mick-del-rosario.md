@@ -1,6 +1,10 @@
 ---
 title: "Mick Del Rosario"
 date: 2020-01-07T22:30:44-08:00
+layout: candidate
+type: election
+weight: 4
+headshot: "/img/2020-march/san-francisco/mick-del-rosario.jpg"
 ---
 
 The tech industry has the ability to provide well paying jobs and

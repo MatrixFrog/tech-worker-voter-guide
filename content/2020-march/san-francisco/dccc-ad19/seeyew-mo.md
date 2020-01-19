@@ -1,6 +1,10 @@
 ---
 title: "Seeyew Mo"
 date: 2020-01-07T22:27:02-08:00
+layout: candidate
+type: election
+weight: 5
+headshot: "/img/2020-march/san-francisco/seeyew-mo.jpg" 
 ---
 
 The tech sector and the people in them have a critical role to play to make our

@@ -1,6 +1,10 @@
 ---
 title: "Jane Natoli"
 date: 2020-01-07T22:31:05-08:00
+layout: candidate
+type: election
+weight: 2
+headshot: "/img/2020-march/san-francisco/jane-natoli.jpg"
 ---
 
 The tech industry have me the opportunity to stay in San Francisco. I've used

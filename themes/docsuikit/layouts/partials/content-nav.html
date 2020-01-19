@@ -1,0 +1,17 @@
+<!-- Content Nav -->
+<div class="col-xl-2 order-xl-2 d-none d-xl-inline-block">
+  <ul class="js-scroll-nav duik-content-nav">
+    {{ template "li" . }}
+  </ul>
+</div>
+<!-- End Content Nav -->
+
+{{ define "li" }}
+{{ range .Pages.ByWeight }}
+<li class="duik-content-nav__item"><a href="#{{ urlize .Title }}">{{ .Title }}</a>
+  {{ if .Pages }}
+    <ul>{{ template "li" . }}</ul>
+  {{ end }}
+</li>
+{{ end }}
+{{ end }}

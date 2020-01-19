@@ -1,12 +1,20 @@
-{{ range .Page.Pages.ByTitle  }}
-<h{{ $.level }} id="{{ .Page.Title }}"><a href="#{{ .Page.Title }}">{{ .Page.Title }}</a>{{ if .Page.Params.short }} - <small>{{ .Page.Params.short }}</small>{{ end }}</h{{ $.level }}>
+{{ range .Page.Pages.ByWeight  }}
+{{ if .Page.Params.headshot }}
+{{ partial "candidate" . }}
+{{ else }}
+
+<div class="col-md-12">
+  <h{{ $.level }} id="{{ urlize .Page.Title }}"><a href="#{{ .Page.Title }}">{{ .Page.Title }}</a></h{{ $.level }}>
+  {{ if .Page.Params.short }}<p class="lead">{{ .Page.Params.short }}</p>{{ end }}
+
   {{ if .Page.Content }}
-  <div>
     {{ .Page.Content }}
-  </div>
   {{ end }}
 
   {{ if .Page.Pages }}
     {{ partial "election-detail.html" (dict "Page" . "level" (add $.level 1)) }}
   {{ end }}
+
+</div>
+{{ end }}
 {{ end }}
