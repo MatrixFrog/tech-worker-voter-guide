@@ -14,11 +14,10 @@
     <p>If you don't want to read the <a href="{{ ref . "2020-march" }}">full March 2020 voter guide</a>, look at the tl;dr below:</p>
     {{ with .Site.GetPage "2020-march" }}
       {{ range .Page.Pages.ByWeight  }}
-      <h3>{{ .Title }}</h3>
+      <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
       {{ partial "election-toc.html" (dict "Page" . "level" 2) }}
       {{ end }}
     {{ end }}
-    </p>
   </div>
 </div>
 
