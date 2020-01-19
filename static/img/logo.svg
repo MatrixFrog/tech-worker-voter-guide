@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="446"
+   width="530"
    height="101"
-   viewBox="0 0 118.00416 26.722918"
+   viewBox="0 0 140.22916 26.722918"
    version="1.1"
    id="svg80"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6568542"
-     inkscape:cx="219.23395"
-     inkscape:cy="68.33064"
+     inkscape:cx="294.01049"
+     inkscape:cy="52.420737"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -80,17 +80,17 @@
            height="193"
            x="53"
            y="37.732269" /></flowRegion><flowPara
-         id="flowPara88"></flowPara></flowRoot>    <text
+         id="flowPara88" /></flowRoot>    <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.64512253px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.31612808"
-       x="30.706945"
-       y="281.72839"
+       style="font-style:normal;font-weight:normal;font-size:15.18425751px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37960646"
+       x="33.787868"
+       y="282.19583"
        id="text92"><tspan
          sodipodi:role="line"
          id="tspan90"
-         x="30.706945"
-         y="281.72839"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.64512253px;font-family:'Courier New';-inkscape-font-specification:'Courier New, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.31612808">Tech Worker</tspan></text>
+         x="33.787868"
+         y="282.19583"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.18425751px;font-family:'Courier New';-inkscape-font-specification:'Courier New, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.37960646">Tech Worker</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:20.43284798px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.5108211"
@@ -115,14 +115,14 @@
          sodipodi:role="line">VG</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.45943069px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.31148574"
-       x="30.706945"
-       y="293.17288"
+       style="font-style:normal;font-weight:normal;font-size:14.96127892px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.37403193"
+       x="33.787868"
+       y="294.1131"
        id="text3809"><tspan
          sodipodi:role="line"
          id="tspan3807"
-         x="30.706945"
-         y="293.17288"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.45943069px;font-family:'Courier New';-inkscape-font-specification:'Courier New, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.31148574">Voter Guide</tspan></text>
+         x="33.787868"
+         y="294.1131"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:14.96127892px;font-family:'Courier New';-inkscape-font-specification:'Courier New, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;stroke-width:0.37403193">Voter Guide</tspan></text>
   </g>
 </svg>
