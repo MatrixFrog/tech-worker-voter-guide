@@ -1,0 +1,24 @@
+<div class="list-group">
+{{ range .Page.Pages.ByWeight  }}
+<a href="{{ .URL }}" class="list-group-item list-group-item-action flex-column align-items-start">
+  <div class="d-flex w-100 justify-content-betwee">
+    <h5 class="mb-1">{{ .Title }}{{ if .Page.Params.position }}: {{ .Page.Params.position }}{{ end }}
+    </h5>
+  </div>
+  <p class="mb-1">
+  {{ if .Page.Params.short }}
+    {{ .Page.Params.short }}
+  {{ end }}
+  {{ if .Page.Pages }}
+    {{ $candidates := slice }}
+    {{ range .Page.Pages }}
+      {{ $candidates = $candidates | append .Title }}
+    {{ end }}
+    <span style="color: #000">
+      <strong>Vote for:</strong> {{ delimit $candidates ", " }}
+    </span>
+  {{ end }}
+  </p>
+</a>
+{{ end }}
+</div>

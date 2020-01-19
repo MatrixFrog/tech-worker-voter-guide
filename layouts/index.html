@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+{{ with .Site.GetPage "framework"}}
+<div class="row">
+  <div class="col-md-12">
+    <h1>Tech Worker Voter Guide</h1>
+    {{ .Content }}
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2>March 2020 Voting Guide</h2>
+    <p><strong>tl;dr:</strong>
+    {{ with .Site.GetPage "2020-march" }}
+      {{ range .Page.Pages.ByWeight  }}
+      <h3>{{ .Title }}</h3>
+      {{ partial "election-toc.html" (dict "Page" . "level" 2) }}
+      {{ end }}
+    {{ end }}
+    </p>
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-12">
+    <h2>Our framework</h2>
+    <ul class="toc_list">
+    {{ range .Pages.ByTitle }}
+      <li><big><a href="#{{ .Title }}">{{ .Title }}</a></big>
+        {{ $parent := .Title }}
+        <ul>
+          {{ range sort .Pages "Dir" "asc" }}
+          <li><a href="#{{ $parent }}.{{ .Title }}">{{ .Title }}</a> - {{ .Params.short }}</li>
+          {{ end }}
+        </ul></li>
+    {{ end }}
+    </ul>
+  </div>
+</div>
+{{ end }}
+
+{{ end }}
