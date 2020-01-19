@@ -4,14 +4,8 @@ date: 2020-01-11T21:52:07-08:00
 layout: candidate
 type: election
 weight: 2
+headshot: "/img/2020-march/san-francisco/bivett-brackett.jpg"
 ---
-
-{{< figure src="/img/2020-march/san-francisco/bivett-brackett.jpg"
-           alt="Bivett Brackett"
-           link="/img/2020-march/san-francisco/bivett-brackett.jpg"
-           class="candidate"
-           width=250
-           >}}
 
 In 2020, we should be making larger investments in our underserved communities
 and connecting them to employment opportunities in tech.  The most economically

@@ -6,7 +6,7 @@ short: "Provides retirement benefits for some City employees."
 weight: 3
 ---
 
-## Vote YES
+### Vote YES
 
 The Mayor and the Board of Supervisors are all in agreement that this should
 pass.
@@ -14,14 +14,14 @@ pass.
 It changes the dates of employment that qualifies employees of the Housing
 Authority for retirement benefits.
 
-## What is it?
+### What is it?
 
 This is the least interesting thing on the ballot. It is a minor administrative
 change to set new dates for retirement benefit eligibility.
 
 View the [legal text](https://sfelections.sfgov.org/sites/default/files/Documents/candidates/March2020_RetireeHealthBenefits.pdf)
 
-## Why is it on the ballot?
+### Why is it on the ballot?
 
 This is on the ballot because it is an amendment to the city charter. All
 charter amendments must go to a vote of registered San Franciscan voters and

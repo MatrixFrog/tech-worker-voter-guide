@@ -4,14 +4,8 @@ date: 2020-01-07T22:30:44-08:00
 layout: candidate
 type: election
 weight: 4
+headshot: "/img/2020-march/san-francisco/mick-del-rosario.jpg"
 ---
-
-{{< figure src="/img/2020-march/san-francisco/mick-del-rosario.jpg"
-           alt="Mick Del Rosario"
-           link="/img/2020-march/san-francisco/mick-del-rosario.jpg"
-           class="candidate"
-           width=250
-           >}}
 
 The tech industry has the ability to provide well paying jobs and
 opportunities. As a former tech policy associate, and as someone who was born

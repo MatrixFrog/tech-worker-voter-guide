@@ -6,7 +6,7 @@ short: Authorizes $15B general obligation bond for school and college facilities
 weight: 1
 ---
 
-## Vote YES
+### Vote YES
 
 Bonds are an excellent way to fund infrastructure improvements requiring massive
 capital. Bonds let us get improvements today and pay for them with future,
@@ -18,7 +18,7 @@ when our populace is well educated in good facilities.
 This satisfies <a href="{{< relref "/framework" >}}#Taxation.Infrastructure">#Taxation.Infrastructure</a>
 from our voting framework.
 
-## What is it?
+### What is it?
 
 This year's Prop 13 (not to be confused with the [disastrous 1978 Prop 13](https://en.wikipedia.org/wiki/1978_California_Proposition_13))
 authorizes the state to issue a new general obligation bond for $15B which will
@@ -33,7 +33,7 @@ be used in the following ways:
 * $2B for capital outlay financing needs for community colleges statewide
 
 
-## Why is it on the ballot?
+### Why is it on the ballot?
 
 [Article XVI](https://ballotpedia.org/Article_XVI,_California_Constitution#Section_1)
 of the California Constitution requires any general obligation bonds in excess

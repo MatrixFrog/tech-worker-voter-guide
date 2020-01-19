@@ -3,7 +3,7 @@ baseURL = "https://techworkers.vote/"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Tech Worker Voter Guide"
-theme = "hugo-theme-techdoc"
+theme = "docsuikit"
 
 pygmentsCodeFences = true
 pygmentsUseClasses = true

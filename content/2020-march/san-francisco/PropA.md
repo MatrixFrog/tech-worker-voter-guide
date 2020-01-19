@@ -6,7 +6,7 @@ short: "City College Bond to fund facilities construction & renovation"
 weight: 1
 ---
 
-## Vote YES
+### Vote YES
 
 Bonds are among the best ways to finance public infrastructure because they let
 the public build infrastructure now and pay for it with inflated dollars later.
@@ -14,7 +14,7 @@ the public build infrastructure now and pay for it with inflated dollars later.
 This satisfies [#Taxation.Infrastructure]({{< relref "/framework" >}}#Taxation.Infrastructure)
 from our voting framework.
 
-## What is it?
+### What is it?
 
 This $845MM bond will be used by City College in the following ways:
 
@@ -40,7 +40,7 @@ This needs a 55% majority to pass.
 View the [full text](https://sfelections.sfgov.org/sites/default/files/Documents/candidates/March2020_CC_Bond.pdf),
 and the [legal text](https://sfelections.sfgov.org/sites/default/files/Documents/candidates/March2020_LT_A.pdf).
 
-## Why is it on the ballot?
+### Why is it on the ballot?
 
 California Government Code [section 53506](http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=53506.)
 and [Article XVI](https://ballotpedia.org/Article_XVI,_California_Constitution#Section_1)
