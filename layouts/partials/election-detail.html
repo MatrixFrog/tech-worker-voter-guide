@@ -1,4 +1,4 @@
-{{ range .Page.Pages.ByTitle  }}
+{{ range .Page.Pages.ByWeight  }}
 {{ if .Page.Params.headshot }}
 {{ partial "candidate" . }}
 {{ else }}
