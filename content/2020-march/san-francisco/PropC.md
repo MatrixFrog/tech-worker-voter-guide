@@ -29,7 +29,7 @@ needs 50% + 1 votes to pass. That's reasonable for what is effectively a
 constitutional amendment, but it's ridiculous for what this ballot prop
 actually is.
 
-This ballot prop highlights one of the truly inance things about the way San
+This ballot prop highlights one of the truly inane things about the way San
 Francisco is run.
 
 San Francisco made the mistake of putting the qualifying dates for retirement
