@@ -1,6 +1,7 @@
 <div class="list-group">
+{{ $parent := .Page.URL }}
 {{ range .Page.Pages.ByWeight  }}
-<a href="{{ .URL }}" class="list-group-item list-group-item-action flex-column align-items-start">
+<a href="{{ $parent }}#{{ urlize .Title}}" class="list-group-item list-group-item-action flex-column align-items-start">
   <div class="d-flex w-100 justify-content-betwee">
     <h5 class="mb-1">{{ .Title }}{{ if .Page.Params.position }}: {{ .Page.Params.position }}{{ end }}
     </h5>
