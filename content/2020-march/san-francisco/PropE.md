@@ -17,8 +17,6 @@ Kim-Mai Cutler does a great job explaining why this is a terrible prop:
 
 {{< tweet 1214634835580375040 >}}
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This basically seals the deal that San Francisco is going to be a Big Tech town going forward; if you are a mid-size company or smaller, you need to pick another city or go remote (if you haven&#39;t likely done that already). <a href="https://t.co/ToqSlCrMOg">https://t.co/ToqSlCrMOg</a></p>&mdash; Kim-Mai Cutler (@kimmaicutler) <a href="https://twitter.com/kimmaicutler/status/1214634835580375040?ref_src=twsrc%5Etfw">January 7, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 View the [legal text](https://sfelections.sfgov.org/sites/default/files/Documents/candidates/Mar2020_BalancedDevAct_LegalText_Resubmitted.pdf).
 
 ### What is it?
