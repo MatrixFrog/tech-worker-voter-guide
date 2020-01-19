@@ -7,7 +7,7 @@
 <!-- End Content Nav -->
 
 {{ define "li" }}
-{{ range .Pages.ByTitle }}
+{{ range .Pages.ByWeight }}
 <li class="duik-content-nav__item"><a href="#{{ urlize .Title }}">{{ .Title }}</a>
   {{ if .Pages }}
     <ul>{{ template "li" . }}</ul>
