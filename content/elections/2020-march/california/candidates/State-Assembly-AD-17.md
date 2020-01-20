@@ -3,6 +3,9 @@ title: "State Assembly AD 17"
 date: 2020-01-08T22:36:52-08:00
 position: "David Chiu"
 weight: 2
+headshot: /img/2020-march/california/david-chiu.jpg
+website: https://votedavidchiu.com/
+donate: https://secure.ngpvan.com/b2yOLVNZyECETT4p5A_3Xw2
 ---
 
 ### David Chiu
