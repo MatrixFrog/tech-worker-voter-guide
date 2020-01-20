@@ -45,7 +45,12 @@
       {{ if .IsSection }}
         {{ if in .Site.Params.menu_exclusion .Section }}
         {{- else -}}
-          <h{{ $.level }} class="duik-sidebar__heading"><a class="duik-sidebar__link{{ if eq ($.scratch.Get "uid") .UniqueID }} active{{ end }}" href="{{ .URL }}">{{ .Title }}</a></h{{ $.level }}>
+          <h{{ $.level }} class="duik-sidebar__heading">
+            {{ if ge $.level 5 }}
+              <a class="duik-sidebar__link{{ if eq ($.scratch.Get "uid") .UniqueID }} active{{ end }}" href="{{ .Parent.URL }}#{{ urlize .Title }}">{{ .Title }}</a></h{{ $.level }}>
+            {{ else }}
+              <a class="duik-sidebar__link{{ if eq ($.scratch.Get "uid") .UniqueID }} active{{ end }}" href="{{ .URL }}">{{ .Title }}</a></h{{ $.level }}>
+            {{ end }}
           {{ if .Pages }}
             <ul class="duik-sidebar__nav">
               {{- if eq .Site.Params.ordersectionsby "title" -}}
@@ -69,7 +74,7 @@
         {{- end -}}
       {{ else }}
         {{- if not .Params.Hidden -}}
-          <a class="duik-sidebar__link{{ if eq ($.scratch.Get "uid") .UniqueID }} active{{ end }}" href="{{ .URL }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a>
+          <a class="duik-sidebar__link{{ if eq ($.scratch.Get "uid") .UniqueID }} active{{ end }}" href="{{ .Parent.URL }}#{{ urlize .Title }}">{{ safeHTML .Params.Pre }}{{ .Title }}{{ safeHTML .Params.Post }}</a>
         {{- end -}}
       {{ end -}}
     </li>
