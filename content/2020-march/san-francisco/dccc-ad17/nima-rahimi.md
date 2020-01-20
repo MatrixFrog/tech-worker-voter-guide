@@ -5,6 +5,8 @@ layout: candidate
 type: election
 weight: 6
 headshot: "/img/2020-march/san-francisco/nima-rahimi.jpg"
+website: https://www.nimarahimi.org/
+donate: https://secure.actblue.com/donate/nima-rahimi-for-democratic-county-central-committee-2020-1
 ---
 
 The tech industry has provided me and many first generation immigrants like me

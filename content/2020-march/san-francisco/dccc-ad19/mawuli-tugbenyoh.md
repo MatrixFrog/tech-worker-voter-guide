@@ -5,6 +5,8 @@ layout: candidate
 type: election
 weight: 3
 headshot: "/img/2020-march/san-francisco/mawuli-tugbenyoh.jpg"
+website: https://www.mawuli2020.com/
+donate: https://secure.actblue.com/donate/mawuli-tugbenyoh-for-democratic-central-committee-2020-1
 ---
 
 Innovation is part of the fabric of San Francisco. Going back to the 1849 gold

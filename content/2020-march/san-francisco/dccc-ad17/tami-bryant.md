@@ -5,6 +5,8 @@ layout: candidate
 type: election
 weight: 8
 headshot: "/img/2020-march/san-francisco/tami-bryant.jpg"
+website: https://www.tamibryant.com/
+donate: https://secure.actblue.com/donate/tami-bryant-for-dccc-ad17-2020-1
 ---
 
 Technology can be an equalizer for those previously isolated or without

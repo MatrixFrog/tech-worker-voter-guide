@@ -5,6 +5,8 @@ layout: candidate
 type: election
 weight: 3
 headshot: "/img/2020-march/san-francisco/kristen-asato-webb.jpg"
+website: http://www.vote4kristen.com/
+donate: https://secure.actblue.com/donate/kristen-asato-webb-for-democratic-county-central-committee-1
 ---
 
 As a daughter of a software engineer, I have long understood the value of

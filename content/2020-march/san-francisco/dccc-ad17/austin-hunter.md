@@ -5,6 +5,8 @@ layout: candidate
 type: election
 weight: 1
 headshot: /img/2020-march/san-francisco/austin-hunter.jpg
+website: https://www.austinhunter.org/
+donate: https://secure.actblue.com/donate/ah2020
 ---
 
 The tech industry is something that is integral to San Francisco.

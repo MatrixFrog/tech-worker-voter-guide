@@ -1,5 +1,5 @@
 <div class="card mb-3">
-  <div class="row no-gutters">
+  <div id="{{ urlize .Title }}" class="row no-gutters">
     <div class="col-md-4">
       <img src="{{ .Page.Params.headshot }}"
            class="card-img"
@@ -9,6 +9,9 @@
       <div class="card-body">
         <h5 class="card-title">{{ .Title }}</h5>
         <p class="card-text">{{ .Content }}</p>
+        <a target="_blank" href="{{ .Page.Params.donate }}" class="btn btn-sm btn-outline-primary">Donate 💸</a>
+        {{ $url := urls.Parse .Page.Params.website }}   
+        <a target="_blank" href="{{ .Page.Params.website }}" class="btn btn-sm btn-outline-primary">{{ replace $url.Host "www." "" }}</a>
       </div>
     </div>
   </div>
