@@ -8,7 +8,8 @@ weight: 2
 
 ## Vote YES
 
-Bonds are the preferred way to finance critical infrastructure improvements.
+Bonds are among the best ways to finance public infrastructure because they let
+the public build infrastructure now and pay for it with inflated dollars later.
 We need to ensure that San Francisco can manage the next large earthquake, and
 this bond helps us prepare.
 
@@ -30,7 +31,7 @@ property taxes shouldn't actually change on net. The projected average annual
 revenue of this tax is $40MM.
 
 Landlords will be allowed to pass through 50% of the new property tax to their
-tenants.
+rent-contolled tenants.
 
 View the [legal text](https://sfelections.sfgov.org/sites/default/files/Documents/candidates/NOV2019_EarthquakeSafetyEmergencyResponse_LegalText.pdf),
 and the [legislative digest](https://sfelections.sfgov.org/sites/default/files/Documents/candidates/NOV2019_EarthquakeSafetyEmergencyResponse_LegislativeDigest.pdf).
