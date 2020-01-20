@@ -61,6 +61,23 @@ Please vote no.
 
 ### Why is it on the ballot?
 
-This is an initiative placed on the ballot through signatures. Nonprofit
-affordable housing developer Todco has spent $407,000 so far to collect the
-signatures and run the campaign.
+Prop E was put directly onto the ballot by signatures gathered from SF voters.
+Regardless of its origin, it also requires a vote because it modifies
+[Prop M from 1986](https://www.spur.org/publications/urbanist-article/1999-07-01/proposition-m-and-downtown-growth-battle),
+which was the first ballot prop to limit office space construction in San
+Francisco.
+
+Nonprofit landlord Todco has spent $407,000 so far to collect the signatures
+and run the campaign. Todco is [using federal rent subsidy dollars to fund
+political opposition to new housing](https://www.sfchronicle.com/bayarea/article/Pre-election-opening-for-Warm-Springs-BART-looks-9981990.php)
+and office construction.
+
+{{< blockquote 
+    content="\"It's shocking — they are stealing taxpayers' money that should be going into affordable housing and rent subsidies, (and) not for politics,\" said Sonja Trauss, founder of the development-friendly SF Bay Area Renters Federation."
+    source_text="Sonja Trauss @ SF Chronicle"
+    source_url="https://www.sfchronicle.com/bayarea/article/Pre-election-opening-for-Warm-Springs-BART-looks-9981990.php"
+    >}}
+
+It's _technically_ legally but morally abhorrent to
+use money intended for low-income residents to stop new construction. They've
+been doing this for decades.
