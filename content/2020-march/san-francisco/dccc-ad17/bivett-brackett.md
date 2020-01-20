@@ -5,6 +5,8 @@ layout: candidate
 type: election
 weight: 2
 headshot: "/img/2020-march/san-francisco/bivett-brackett.jpg"
+website: https://www.bivettbrackett.com/ 
+donate: https://secure.actblue.com/donate/bivett-brackett-for-democratic-county-central-committee-1
 ---
 
 In 2020, we should be making larger investments in our underserved communities

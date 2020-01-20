@@ -5,6 +5,8 @@ layout: candidate
 type: election
 weight: 1
 headshot: "/img/2020-march/san-francisco/cyn-wang.jpg"
+website: https://www.cynforsf.com/
+donate: https://secure.actblue.com/donate/cynforsf
 ---
 
 Tech has made San Francisco a global hub of innovation and entrepreneurship. As

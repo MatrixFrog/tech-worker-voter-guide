@@ -5,6 +5,8 @@ layout: candidate
 type: election
 weight: 4
 headshot: "/img/2020-march/san-francisco/mick-del-rosario.jpg"
+website: https://www.mickdelrosario.com/
+donate: https://secure.actblue.com/donate/mickdelrosario
 ---
 
 The tech industry has the ability to provide well paying jobs and

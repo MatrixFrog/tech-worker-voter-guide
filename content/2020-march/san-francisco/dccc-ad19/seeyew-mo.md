@@ -5,6 +5,8 @@ layout: candidate
 type: election
 weight: 5
 headshot: "/img/2020-march/san-francisco/seeyew-mo.jpg" 
+website: https://www.seeyewmo.com/
+donate: https://secure.actblue.com/donate/seeyew-mo-for-dccc-2020-1
 ---
 
 The tech sector and the people in them have a critical role to play to make our

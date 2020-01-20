@@ -5,6 +5,8 @@ layout: candidate
 type: election
 weight: 5
 headshot: "/img/2020-march/san-francisco/mike-chen.jpg"
+website: https://mikechensf.com/
+donate: https://secure.actblue.com/donate/mikechensf
 ---
 
 A tech job brought me to San Francisco, and I fell in love with the city. Tech

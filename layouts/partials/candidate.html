@@ -9,6 +9,9 @@
       <div class="card-body">
         <h5 class="card-title">{{ .Title }}</h5>
         <p class="card-text">{{ .Content }}</p>
+        <a target="_blank" href="{{ .Page.Params.donate }}" class="btn btn-sm btn-outline-primary">Donate 💸</a>
+        {{ $url := urls.Parse .Page.Params.website }}   
+        <a target="_blank" href="{{ .Page.Params.website }}" class="btn btn-sm btn-outline-primary">{{ replace $url.Host "www." "" }}</a>
       </div>
     </div>
   </div>

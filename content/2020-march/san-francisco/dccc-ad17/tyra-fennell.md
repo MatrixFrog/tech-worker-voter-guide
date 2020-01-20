@@ -5,6 +5,8 @@ layout: candidate
 type: election
 weight: 9
 headshot: "/img/2020-march/san-francisco/tyra-fennell.jpg"
+website: https://www.tyrafennellsf.com/
+donate: https://secure.actblue.com/donate/tyra-fennell-for-dccc-2020-1
 ---
 
 We are well into the digital age, one of the biggest economic shifts in our
