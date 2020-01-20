@@ -12741,6 +12741,12 @@ h4:hover .duik-anchorjs-link {
   font-weight: 700;
 }
 
+.duik-sidebar h5 {
+  font-size: 0.9rem;
+  text-transform: none;
+  font-weight: normal;
+}
+
 .duik-sidebar__nav {
   list-style: none;
   margin: 0;

@@ -38,12 +38,26 @@
         go2TopOperation();
       });
     }());
+
+    var hash = $(location).attr('hash');
+    if (hash != "") {
+      console.log(hash)
+      $('html, body').animate( {scrollTop:( $(hash).offset().top - ( $('.duik-header .navbar').height() ) - 30 )}, 600 );
+    }
   });
 
   $(window).on('load', function () {
 
     // Page Nav
     var onePageScrolling = (function () {
+      $('a.js-scroll-nav').on('click', function(event) {
+        //event.preventDefault();
+        if ( $('.duik-header').length ) {
+          $('html, body').animate( {scrollTop:( $('#' + this.href.split('#')[1]).offset().top - ( $('.duik-header .navbar').height() ) - 30 )}, 600 );
+        } else {
+          $('html, body').animate( {scrollTop:( $('#' + this.href.split('#')[1]).offset().top - 30 )}, 600 );
+        }
+      });
       $('.js-scroll-nav a').on('click', function(event) {
         event.preventDefault();
         if ( $('.duik-header').length ) {

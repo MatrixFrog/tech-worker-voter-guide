@@ -108,6 +108,12 @@
     font-weight: 700;
   }
 
+  h5 {
+    font-size: $font-size-base * 0.9;
+    text-transform: none;
+    font-weight: normal;
+  }
+
   &__nav {
     list-style: none;
     margin: 0;
