@@ -4,7 +4,7 @@
 {{ else }}
 
 <div class="col-md-12">
-  <h{{ $.level }} id="{{ urlize .Page.Title }}"><a href="#{{ .Page.Title }}">{{ .Page.Title }}</a></h{{ $.level }}>
+  <h{{ $.level }} id="{{ urlize .Page.Title }}"><a class="js-scroll-nav" href="#{{ urlize .Page.Title }}">{{ .Page.Title }}</a></h{{ $.level }}>
   {{ if .Page.Params.short }}<p class="lead">{{ .Page.Params.short }}</p>{{ end }}
 
   {{ if .Page.Content }}
