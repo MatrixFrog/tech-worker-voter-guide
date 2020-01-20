@@ -254,6 +254,12 @@ h4:hover .duik-anchorjs-link {
   line-height: 1.9;
 }
 
+.blockquote {
+  border-left: solid 2px grey;
+  padding-left: 1rem;
+  font-size: 104%;
+}
+
 /* Sidebar */
 .duik-sidebar-sticky {
   position: relative;
