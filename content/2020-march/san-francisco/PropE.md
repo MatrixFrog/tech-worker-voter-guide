@@ -61,4 +61,6 @@ Please vote no.
 
 ### Why is it on the ballot?
 
-It was a signature prop. TODO
+This is an initiative placed on the ballot through signatures. Nonprofit
+affordable housing developer Todco has spent $407,000 so far to collect the
+signatures and run the campaign.
