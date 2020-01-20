@@ -37,7 +37,9 @@ and the [legislative digest](https://sfelections.sfgov.org/sites/default/files/D
 
 ## Why is it on the ballot?
 
-Unlike [Prop A]({{< relref "/2020-march/san-francisco/propa/" >}}), this bond
-must be on the ballot because it institutes a new property tax. All new taxes
-must go to a publix vote due to [Prop 13](https://en.wikipedia.org/wiki/1978_California_Proposition_13).
+California Government Code [section 53506](http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&sectionNum=53506.)
+and [Article XVI](https://ballotpedia.org/Article_XVI,_California_Constitution#Section_1)
+of the California Constitution mandated that general obligation bonds of this
+size be put to a vote.
+
 This requires a 2/3 majority to pass.
