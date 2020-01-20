@@ -3,6 +3,9 @@ title: "State Assembly AD 19"
 date: 2020-01-08T22:36:54-08:00
 position: Phil Ting
 weight: 3
+headshot: /img/2020-march/california/phil-ting.jpg
+website: https://www.philting.com/
+donate: https://act.myngp.com/philting/donate
 ---
 
 ### Phil Ting
