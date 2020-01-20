@@ -39,6 +39,7 @@
 <!-- End Sidebar -->
 
 {{define "open-menu"}}
+{{ if le $.level 5 }}
   {{ with .sect }}
     <li class="duik-sidebar__item">
       {{ if .IsSection }}
@@ -73,4 +74,5 @@
       {{ end -}}
     </li>
   {{ end -}}
+{{ end }}
 {{ end }}
