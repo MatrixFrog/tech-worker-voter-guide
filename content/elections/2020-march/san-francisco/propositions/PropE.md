@@ -68,8 +68,8 @@ which was the first ballot prop to limit office space construction in San
 Francisco.
 
 Nonprofit landlord Todco has spent $407,000 so far to collect the signatures
-and run the campaign. Todco is [using federal rent subsidy dollars to fund
-political opposition to new housing](https://www.sfchronicle.com/bayarea/article/Pre-election-opening-for-Warm-Springs-BART-looks-9981990.php)
+and run the campaign. Todco is [using taxpayer dollars to fund political
+opposition to new housing](https://www.sfchronicle.com/bayarea/article/Pre-election-opening-for-Warm-Springs-BART-looks-9981990.php)
 and office construction.
 
 {{< blockquote 
