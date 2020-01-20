@@ -26,3 +26,10 @@ change.
 In addition to rideshare, in 2015 Assemblymember Ting introduced legislation to
 [encourage open datasets for the California state government](http://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=201520160AB1215&search_keywords=).
 Unfortunately, this died before getting to a vote.
+
+Phil Ting [voted in favor of AB5](https://legiscan.com/CA/rollcall/AB5/id/890318),
+which limits how many gigs someone can work. It has been widely panned as
+anti-worker. We think AB5 is fundamentally flawed, but that Ting's positives
+outweight the negatives.
+
+Assemblymember Phil Ting is running unopposed.
