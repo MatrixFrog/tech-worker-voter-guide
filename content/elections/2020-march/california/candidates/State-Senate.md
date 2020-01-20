@@ -3,6 +3,9 @@ title: "State Senate"
 date: 2020-01-08T22:36:39-08:00
 position: Scott Wiener
 weight: 4
+headshot: /img/2020-march/california/scott-wiener.jpg
+website: https://www.scottwiener.com/
+donate: https://www.scottwiener.com/donate
 ---
 
 ### Scott Wiener
