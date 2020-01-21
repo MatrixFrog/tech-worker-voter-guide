@@ -442,6 +442,32 @@ h4:hover .duik-anchorjs-link {
   min-height: calc(100vh - 5.5rem - 1.5rem);
 }
 
+main h1 a, main h2 a, main h3 a, main h4 a, main h5 a, main h6 a {
+  color: #212529;
+}
+
+main h2, main h3 {
+  margin-top: 1.5rem;
+  border-bottom: solid 2px #dee2e6;
+}
+
+main h4, main h5 {
+  text-transform: uppercase;
+  margin-left: 1rem;
+}
+
+/* table of contents */
+.list-group h1, .list-group h2, .list-group h3, .list-group h4, .list-group h5, .list-group h6 {
+  border: none;
+  text-decoration: none;
+  text-transform: none;
+  margin-left: 0;
+}
+
+.list-group h1 a, .list-group h2 a, .list-group h3 a, .list-group h4 a, .list-group h5 a, .list-group h6 a {
+  color: #212529;
+}
+
 /*------------------------------------
   List
 ------------------------------------*/

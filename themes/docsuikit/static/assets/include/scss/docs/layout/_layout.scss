@@ -194,3 +194,32 @@
 .duik-content-2 {
   min-height: calc(100vh - #{$footer-height} - 1.5rem);
 }
+
+main {
+  h1, h2, h3, h4, h5, h6 {
+    a {
+        color: $headings-color;
+    }
+  }
+  h2, h3 {
+    margin-top: 1.5rem;
+    border-bottom: solid 2px $border-color;
+  }
+  h4, h5 {
+    text-transform: uppercase;
+    margin-left: 1rem;
+  }
+}
+
+/* table of contents */
+.list-group {
+  h1, h2, h3, h4, h5, h6 {
+    a {
+        color: $headings-color;
+    }
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    margin-left: 0;
+  }
+}
