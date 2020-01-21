@@ -1,20 +1,20 @@
 {{ range .Page.Pages.ByWeight  }}
-{{ if .Page.Params.headshot }}
-{{ partial "candidate" . }}
-{{ else }}
+<div class="row">
+  <div class="col-md-12">
+  {{ if .Page.Params.headshot }}
+    {{ partial "candidate" . }}
+  {{ else }}
+    <h{{ $.level }} id="{{ urlize .Page.Title }}"><a class="js-scroll-nav" href="#{{ urlize .Page.Title }}">{{ .Page.Title }}</a></h{{ $.level }}>
+    {{ if .Page.Params.short }}<p class="lead">{{ .Page.Params.short }}</p>{{ end }}
 
-<div class="col-md-12">
-  <h{{ $.level }} id="{{ urlize .Page.Title }}"><a class="js-scroll-nav" href="#{{ urlize .Page.Title }}">{{ .Page.Title }}</a></h{{ $.level }}>
-  {{ if .Page.Params.short }}<p class="lead">{{ .Page.Params.short }}</p>{{ end }}
+    {{ if .Page.Content }}
+      {{ .Page.Content }}
+    {{ end }}
 
-  {{ if .Page.Content }}
-    {{ .Page.Content }}
+    {{ if .Page.Pages }}
+      {{ partial "election-detail.html" (dict "Page" . "level" (add $.level 1)) }}
+    {{ end }}
   {{ end }}
-
-  {{ if .Page.Pages }}
-    {{ partial "election-detail.html" (dict "Page" . "level" (add $.level 1)) }}
-  {{ end }}
-
+  </div>
 </div>
-{{ end }}
 {{ end }}
