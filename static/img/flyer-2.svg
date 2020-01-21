@@ -29,8 +29,8 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8284271"
-     inkscape:cx="200.21886"
-     inkscape:cy="210.26406"
+     inkscape:cx="188.72837"
+     inkscape:cy="208.14274"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -42,7 +42,7 @@
      inkscape:bbox-nodes="true"
      inkscape:snap-global="false"
      inkscape:window-width="1920"
-     inkscape:window-height="2080"
+     inkscape:window-height="2079"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0">
@@ -61,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2511,25 +2511,25 @@
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333311px;font-family:Oswald;-inkscape-font-specification:'Oswald Light';stroke-width:0.26458332">Tyra Fennell</tspan></text>
     <text
        id="text3558"
-       y="218.20001"
-       x="67.120689"
+       y="223.28001"
+       x="67.247688"
        style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        xml:space="preserve"><tspan
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333311px;font-family:Oswald;-inkscape-font-specification:'Oswald Light';stroke-width:0.26458332"
-         y="218.20001"
-         x="67.120689"
+         y="223.28001"
+         x="67.247688"
          id="tspan3556"
          sodipodi:role="line">Steven Buss</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="67.120689"
-       y="223.28"
+       x="67.345055"
+       y="218.20001"
        id="text3562"><tspan
          sodipodi:role="line"
          id="tspan3560"
-         x="67.120689"
-         y="223.28"
+         x="67.345055"
+         y="218.20001"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:4.23333311px;font-family:Oswald;-inkscape-font-specification:'Oswald Light';stroke-width:0.26458332">Tami Bryant</tspan></text>
     <text
        xml:space="preserve"
