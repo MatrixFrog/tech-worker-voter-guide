@@ -6,7 +6,7 @@ short: "A new tax on vacant commercial property"
 weight: 4
 ---
 
-### Vote NO
+#### Vote NO
 
 This tax on vacant commercial properties is supposed to help solve our retail
 vacancy problem. However, this tax won't address the reason there are so many
@@ -27,7 +27,7 @@ This satisfies [#Good Government.Bureaucracy]({{< relref "/framework" >}}#Good%2
 but violates [#Taxation.New Taxes]({{< relref "/framework" >}}#Taxation.New%20Taxes),
 from our voting framework.
 
-### What is it?
+#### What is it?
 
 San Francisco has a lot of vacant storefronts. This doesn’t make a whole lot of
 sense in such a strong economy, but nevertheless it’s true. In some
@@ -95,7 +95,7 @@ Read the [legal text](https://sfelections.sfgov.org/sites/default/files/Document
 and the City Economist's [Economic Impact Report](https://sfcontroller.org/sites/default/files/Documents/Economic%20Analysis/191005_economic%20impact_final_2.pdf).
 
 
-### Why is it on the ballot?
+#### Why is it on the ballot?
 
 [Prop 13](https://en.wikipedia.org/wiki/1978_California_Proposition_13)
 mandates that all new taxes be subjected to a vote of the public and achieve

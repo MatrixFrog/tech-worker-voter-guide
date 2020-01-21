@@ -6,7 +6,7 @@ short: "Imposes a cap on new office development"
 weight: 5
 ---
 
-### Vote NO
+#### Vote NO
 
 Prop E will prevent new office development in the city, driving up the cost
 of office space and driving _out_ startups. On the surface it looks like it
@@ -19,7 +19,7 @@ Kim-Mai Cutler does a great job explaining why this is a terrible prop:
 
 View the [legal text](https://sfelections.sfgov.org/sites/default/files/Documents/candidates/Mar2020_BalancedDevAct_LegalText_Resubmitted.pdf).
 
-### What is it?
+#### What is it?
 
 Prop E is a complicated proposal related to office space development. The way
 it works is that San Francisco has an annual cap on how much new office space
@@ -59,7 +59,7 @@ In summary, this measure would harm affordable housing production while
 hollowing out the middle of SF’s business community. There are no benefits.
 Please vote no.
 
-### Why is it on the ballot?
+#### Why is it on the ballot?
 
 Prop E was put directly onto the ballot by signatures gathered from SF voters.
 Regardless of its origin, it also requires a vote because it modifies
