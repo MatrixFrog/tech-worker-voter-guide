@@ -46,6 +46,10 @@ defaultContentLanguage = "en"
 	"framework"
     ]
 
+    top_nav = [
+       "framework",
+    ]
+
 [taxonomies]
 category = "categories"
 
