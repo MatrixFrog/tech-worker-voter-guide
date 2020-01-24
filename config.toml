@@ -43,8 +43,15 @@ defaultContentLanguage = "en"
         "entry",
         "post",
         "posts",
-	"framework"
     ]
+
+    top_nav = [
+       "framework",
+    ]
+
+[params.max_nav_expansion_level]
+    framework = 2
+    default = 5
 
 [taxonomies]
 category = "categories"

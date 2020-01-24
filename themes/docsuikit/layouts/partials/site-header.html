@@ -18,6 +18,14 @@
 
     <!-- Header Links -->
     <ul class="navbar-nav duik-header__nav small text-nowrap flex-row px-0 px-sm-3 ml-0 ml-sm-3">
+      {{ range $p := .Site.Params.top_nav }}
+        {{ with $.Site.GetPage $p }}
+        <li class="nav-item ml-1 ml-sm-4">
+          <a class="nav-link" href="{{ .URL }}" title="{{ .Title }}"><span class="d-none d-md-inline-block">{{ .Title }}</span></a>
+        </li>
+        {{ end }}
+      {{ end }}
+
       <li class="nav-item ml-1 ml-sm-4">
         <a class="nav-link" href="{{ .Site.Params.github_repository }}/issues" title="Report an Issue" target="_blank"><i class="fab fa-github mr-sm-1"></i> <span class="d-none d-md-inline-block">Report an Issue</span></a>
       </li>
