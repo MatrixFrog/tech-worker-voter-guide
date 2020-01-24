@@ -3,35 +3,43 @@
 {{/* Table of Contents */}}
 {{ .Content }}
 
-<div id="toc_container">
-<h4>Overview</h4>
-<ul class="toc_list js-scroll-nav">
-{{ range .Pages.ByTitle }}
-  <li><big><a href="#{{ urlize .Title }}">{{ .Title }}</a></big>
-    {{ $parent := .Title }}
-    <ul class="js-scroll-nav">
-      {{ range sort .Pages "Dir" "asc" }}
-      <li><a href="#{{ urlize .Title }}">{{ .Title }}</a> - {{ .Params.short }}</li>
-      {{ end }}
-    </ul></li>
-{{ end }}
-</ul>
+<div class="row">
+  <div class="col-md-12">
+    <div id="toc_container">
+    <h4>Overview</h4>
+    <ul class="toc_list js-scroll-nav">
+    {{ range .Pages.ByTitle }}
+      <li><big><a href="#{{ urlize .Title }}">{{ .Title }}</a></big>
+        {{ $parent := .Title }}
+        <ul class="js-scroll-nav">
+          {{ range sort .Pages "Dir" "asc" }}
+          <li><a href="#{{ urlize .Title }}">{{ .Title }}</a> - {{ .Params.short }}</li>
+          {{ end }}
+        </ul></li>
+    {{ end }}
+    </ul>
+    </div>
+  </div>
 </div>
 
 {{/* Details */}}
 <h4>Details</h4>
 {{ range .Pages.ByTitle }}
-  <h3 id="{{ urlize .Title }}"><a href="#{{ urlize .Title }}">{{ .Title }}</a></h3>
-  {{ $parent := .Title }}
-  {{ range .Pages.ByTitle }}
-     <h4 id="{{ urlize .Title }}"><a href="#{{ urlize .Title }}">{{ .Title }}</a></h4>
-    <div>
-      <p class="lead">
-        {{ .Params.short }}
-      </p>
-      {{ .Content }}
-    </div>
-  {{ end }}
+<div class="row">
+  <div class="col-md-12">
+    <h3 id="{{ urlize .Title }}"><a href="#{{ urlize .Title }}">{{ .Title }}</a></h3>
+    {{ $parent := .Title }}
+    {{ range .Pages.ByTitle }}
+      <h4 id="{{ urlize .Title }}"><a href="#{{ urlize .Title }}">{{ .Title }}</a></h4>
+      <div>
+        <p class="lead">
+          {{ .Params.short }}
+        </p>
+        {{ .Content }}
+      </div>
+    {{ end }}
+  </div>
+</div>
 {{ end }}
 
 <style type="text/css">
