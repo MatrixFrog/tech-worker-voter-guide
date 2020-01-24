@@ -4,15 +4,15 @@
   <div class="collapse navbar-collapse" id="sidebar-nav">
     <div class="js-scrollbar duik-sidebar-sticky">
       {{ $scratch := newScratch }}
-      {{ $scratch.Set "uid" .UniqueID }}
       <ul class="duik-sidebar__nav">
+        {{ $scratch.Set "uid" .UniqueID }}
         {{- if eq .Site.Params.ordersectionsby "title" -}}
           {{ range .Site.Home.Sections.ByTitle }}
-            {{template "open-menu" dict "sect" . "currentnode" . "level" 1 "scratch" $scratch }}
+            {{template "open-menu" dict "sect" . "currentnode" . "level" 1 "scratch" $scratch "stop" (index $.Site.Params.Max_nav_expansion_level .Section | default (index $.Site.Params.Max_nav_expansion_level "default")) }}
           {{ end }}
         {{- else -}}
           {{ range .Site.Home.Sections.ByWeight }}
-            {{template "open-menu" dict "sect" . "currentnode" . "level" 1 "scratch" $scratch }}
+            {{template "open-menu" dict "sect" . "currentnode" . "level" 1 "scratch" $scratch "stop" (index $.Site.Params.Max_nav_expansion_level .Section | default (index $.Site.Params.Max_nav_expansion_level "default")) }}
           {{ end }}
         {{- end -}}
       </ul>
@@ -23,7 +23,7 @@
 <!-- End Sidebar -->
 
 {{define "open-menu"}}
-{{ if le $.level 5 }}
+{{ if le $.level $.stop }}
   {{ with .sect }}
     <li class="duik-sidebar__item">
       {{ if .IsSection }}
@@ -41,14 +41,14 @@
                 {{- range .Pages.ByTitle -}}
                   {{- if and .Params.hidden (not $.showhidden) -}}
                   {{- else -}}
-                    {{template "open-menu" dict "sect" . "level" (add $.level 1) "scratch" $.scratch }}
+                    {{template "open-menu" dict "sect" . "level" (add $.level 1) "scratch" $.scratch "stop" $.stop }}
                   {{- end -}}
                 {{- end -}}
               {{- else -}}
                 {{- range .Pages.ByWeight -}}
                   {{- if and .Params.hidden (not $.showhidden) -}}
                   {{- else -}}
-                    {{template "open-menu" dict "sect" . "level" (add $.level 1) "scratch" $.scratch }}
+                    {{template "open-menu" dict "sect" . "level" (add $.level 1) "scratch" $.scratch "stop" $.stop }}
                   {{- end -}}
                 {{- end -}}
               {{- end}}
