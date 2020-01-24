@@ -43,7 +43,6 @@ defaultContentLanguage = "en"
         "entry",
         "post",
         "posts",
-	"framework"
     ]
 
     top_nav = [
