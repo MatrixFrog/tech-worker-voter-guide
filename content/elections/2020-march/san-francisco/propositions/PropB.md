@@ -13,7 +13,7 @@ the public build infrastructure now and pay for it with inflated dollars later.
 We need to ensure that San Francisco can manage the next large earthquake, and
 this bond helps us prepare.
 
-This satisfies [#Taxation.Infrastructure]({{< relref "/framework" >}}#Taxation.Infrastructure)
+This satisfies [#Taxation.Infrastructure]({{< relref "/framework" >}}#infrastructure)
 from our voting framework.
 
 #### What is it?

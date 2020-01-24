@@ -23,8 +23,8 @@ rent rather than pay the tax. But we should make it easier to open new
 businesses instead of punishing people who are already overburdened by bad
 city rules.
 
-This satisfies [#Good Government.Bureaucracy]({{< relref "/framework" >}}#Good%20Government.Bureaucracy),
-but violates [#Taxation.New Taxes]({{< relref "/framework" >}}#Taxation.New%20Taxes),
+This satisfies [#Good Government.Bureaucracy]({{< relref "/framework" >}}#bureaucracy),
+but violates [#Taxation.New Taxes]({{< relref "/framework" >}}#new-taxes),
 from our voting framework.
 
 #### What is it?

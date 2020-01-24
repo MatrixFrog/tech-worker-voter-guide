@@ -11,7 +11,7 @@ weight: 1
 Bonds are among the best ways to finance public infrastructure because they let
 the public build infrastructure now and pay for it with inflated dollars later.
 
-This satisfies [#Taxation.Infrastructure]({{< relref "/framework" >}}#Taxation.Infrastructure)
+This satisfies [#Taxation.Infrastructure]({{< relref "/framework" >}}#infrastructure)
 from our voting framework.
 
 #### What is it?
