@@ -1,0 +1,19 @@
+{{ $parent := .Page.URL }}
+{{ range .Page.Pages.ByWeight  }}
+<div class="col-lg-4 pl-6 mb-3">
+<a href="{{ $parent }}#{{ urlize .Title}}" style="color: #000">
+  <strong>{{ .Title }}</strong>{{ if .Page.Params.position }}: {{ .Page.Params.position }}{{ end }}
+</a>
+{{ if .Page.Pages }}
+<p class="mb-1">
+  <strong>Vote for all:</strong>
+  {{ $candidates := slice }}
+  <ul>
+  {{ range .Page.Pages }}
+  <li><a style="color: #000" href="{{ $parent }}#{{ urlize .Title }}">{{ .Title }}</a></li>
+  {{ end }}
+  </ul>
+</p>
+{{ end }}
+</div>
+{{ end }}

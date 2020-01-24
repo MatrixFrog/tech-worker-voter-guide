@@ -16,8 +16,10 @@
       {{ range .Page.Pages.ByWeight  }}
       <h3><a href="{{ .URL }}">{{ .Title }}</a></h3>
         {{ range .Page.Pages.ByWeight  }}
-        <h4><a href="{{ .URL }}">{{ .Title }}</a></h4>
-        {{ partial "election-toc.html" (dict "Page" . "level" 2) }}
+        <h5><a href="{{ .URL }}">{{ .Title }}</a></h5>
+        <div class="row">
+          {{ partial "election-tldr.html" (dict "Page" . "level" 2) }}
+        </div>
         {{ end }}
       {{ end }}
     {{ end }}
