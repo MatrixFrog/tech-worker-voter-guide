@@ -36,10 +36,10 @@
 <!-- Schema.org -->
 <meta itemprop="name" content="{{ .Site.Title }}">
 <meta itemprop="description" content="{{ .Site.Params.description }}">
-<meta itemprop="image" content="/img/thumbnail.png">
+<meta itemprop="image" content="{{ .Site.BaseURL }}/img/thumbnail.png">
 
 <!-- Twitter Card -->
-<meta name="twitter:card" content="product">
+<meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="{{ .Site.BaseURL }}">
 <meta name="twitter:title" content="{{ .Site.Title }}">
 {{- if ne .Description "" }}
@@ -48,13 +48,13 @@
 <meta name="twitter:description" content="{{ .Site.Params.description }}">
 {{- end }}
 <meta name="twitter:creator" content="@{{ .Site.Params.twitter }}">
-<meta name="twitter:image" content="/img/twitter.png">
+<meta name="twitter:image" content="{{ .Site.BaseURL}}/img/twitter.png">
 
 <!-- Open Graph -->
 <meta property="og:title" content="{{ .Site.Title }}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="{{ .Site.BaseURL }}">
-<meta property="og:image" content="/img/thumbnail.png">
+<meta property="og:image" content="{{ .Site.BaseURL }}/img/thumbnail.png">
 {{- if ne .Description "" }}
 <meta name="og:description" content="{{ .Description }}">
 {{- else if isset .Site.Params "description" }}
