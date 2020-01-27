@@ -13,8 +13,10 @@ defaultContentLanguage = "en"
 [params]
 
     # Souce Code repository section
-    description = "Because they're going to blame you whether or not you vote."
+    description = "Tech Worker Voter Guide: Pro jobs, pro growth, pro immigration, pro technology."
+    keywords = "tech workers, san francisco, voter guide, democrats, election, how to vote, primary"
     github_repository = "https://github.com/sbuss/tech-worker-voter-guide"
+    twitter = techworkervoterguide"
     version = "0.0.1"
 
     # Analytic section
