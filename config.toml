@@ -15,7 +15,7 @@ defaultContentLanguage = "en"
     # Souce Code repository section
     description = "Tech Worker Voter Guide: Pro jobs, pro growth, pro immigration, pro technology."
     keywords = "tech workers, san francisco, voter guide, democrats, election, how to vote, primary"
-    github_repository = "https://github.com/sbuss/tech-worker-voter-guide"
+    github_repository = "https://github.com/Tech-Worker-Voter-Guide/tech-worker-voter-guide"
     twitter = "techworkervoterguide"
     version = "0.0.1"
 
@@ -68,8 +68,3 @@ category = "categories"
     name = "Framework"
     url = "/framework/"
     weight = 2
-
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/sbuss"
-    weight = 3
