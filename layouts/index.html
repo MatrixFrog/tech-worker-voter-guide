@@ -32,11 +32,11 @@
     <h2>Our framework</h2>
     <ul class="toc_list">
     {{ range .Pages.ByTitle }}
-      <li><big><a href="#{{ .Title }}">{{ .Title }}</a></big>
+      <li><big><a href="{{ ref . "framework" }}#{{ urlize .Title }}">{{ .Title }}</a></big>
         {{ $parent := .Title }}
         <ul>
           {{ range sort .Pages "Dir" "asc" }}
-          <li><a href="#{{ $parent }}.{{ .Title }}">{{ .Title }}</a> - {{ .Params.short }}</li>
+          <li><a href="{{ ref . "framework" }}#{{ urlize .Title }}">{{ .Title }}</a> - {{ .Params.short }}</li>
           {{ end }}
         </ul></li>
     {{ end }}
